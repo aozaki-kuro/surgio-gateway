@@ -6,6 +6,8 @@ WORKDIR /app
 
 COPY . /app/
 
+RUN npm i -g pm2
+
 RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
 
