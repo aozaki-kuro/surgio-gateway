@@ -11,7 +11,7 @@ RUN npm i -g pm2
 RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
 
-ENV SKIP_HUSKY=1
+ENV HUSKY=0
 
 RUN pnpm i -P
 
