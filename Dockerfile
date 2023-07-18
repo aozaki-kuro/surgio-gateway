@@ -6,8 +6,9 @@ WORKDIR /app
 
 COPY package.json gateway.js ecosystem.config.js package-lock.json /app/
 
-RUN npm install -g pm2
+RUN corepack enable
+RUN corepack prepare pnpm@latest --activate
 
-RUN npm install
+RUN pnpm install
 
 CMD ["pm2-runtime", "start", "ecosystem.config.js"]
