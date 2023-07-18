@@ -11,8 +11,7 @@ RUN npm i -g pm2
 RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
 
-ENV HUSKY=0
-
+RUN pnpm pkg delete scripts.prepare
 RUN pnpm i -P
 
 CMD ["pm2-runtime", "start", "ecosystem.config.js"]
