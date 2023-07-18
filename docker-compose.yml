@@ -1,8 +1,7 @@
 version: '3.8'
 services:
   gateway:
-    build: .
-    image: aozaki-kuro/surgio
+    image: ghcr.io/aozaki-kuro/surgio-gateway:latest
     container_name: surgio
     restart: always
     user: '1000:1000'

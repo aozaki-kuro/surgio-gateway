@@ -4,7 +4,7 @@ ENV TZ=Asia/Shanghai
 
 WORKDIR /app
 
-COPY package.json gateway.js ecosystem.config.js package-lock.json /app/
+COPY . /app/
 
 RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
