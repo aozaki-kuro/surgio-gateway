@@ -1,0 +1,32 @@
+{
+  "name": "surgio-aozaki",
+  "author": "Aozaki <i@aozaki.cc>",
+  "private": "true",
+  "scripts": {
+    "generate": "surgio generate -V",
+    "start": "node gateway.js",
+    "lint": "surgio lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@surgio/gateway": "2.0.1",
+    "surgio": "3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0"
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs,jsx,ts,tsx}": [
+      "eslint --cache --fix --cache-location './node_modules/@eslint/.eslintcache/'"
+    ],
+    "*.{json,css,md,mdx}": [
+      "prettier --write"
+    ]
+  },
+  "packageManager": "pnpm@8.6.7"
+}
