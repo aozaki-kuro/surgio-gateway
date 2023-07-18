@@ -4,7 +4,7 @@ ENV TZ=Asia/Shanghai
 
 WORKDIR /app
 
-COPY package.json gateway.js ecosystem.config.js package-lock.yaml /app/
+COPY package.json gateway.js ecosystem.config.js package-lock.json /app/
 
 RUN npm install -g pm2
 
