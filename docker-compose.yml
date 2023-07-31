@@ -12,4 +12,3 @@ services:
       - ./template:/app/template
       - ./dist:/app/dist
       - ./surgio.conf.js:/app/surgio.conf.js
-      - ./secret.js:/app/secret.js

@@ -35,14 +35,14 @@ module.exports = {
    * 订阅地址的前缀部分，以 / 结尾
    * 例如阿里云 OSS 的访问地址 https://xxx.oss-cn-hangzhou.aliyuncs.com/
    */
-  urlBase: `https://${require('./secret').url}/get-artifact/`,
+  urlBase: `https://example.com/get-artifact/`,
   surgeConfig: {
     v2ray: 'native', // 默认 'native', 可选 'external'
     shadowsocksFormat: 'ss', // 默认 'ss', 可选 'custom'
   },
   gateway: {
     auth: true,
-    accessToken: require('./secret').token1,
+    accessToken: "YourTokenHere"
   },
   // 非常有限的报错信息收集
   analytics: true,
