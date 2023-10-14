@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@surgio/gateway':
     specifier: 2.0.1
-    version: 2.0.1(surgio@3.0.2)
+    version: 2.0.1(surgio@3.1.0)
   surgio:
-    specifier: 3.0.2
-    version: 3.0.2(@types/node@20.6.5)(typescript@5.2.2)
+    specifier: 3.1.0
+    version: 3.1.0(@types/node@20.6.5)(typescript@5.2.2)
 
 devDependencies:
   eslint:
@@ -48,8 +48,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: false
 
-  /@babel/parser@7.22.16:
-    resolution: {integrity: sha512-+gPfKv8UWeKKeJTUxe59+OobVcrYHETCsORl61EmSkmgymguYk/X5bp7GuUIXaFsc6y++v8ZxPsLSSuujqDphA==}
+  /@babel/parser@7.23.0:
+    resolution: {integrity: sha512-vvPKKdMemU85V9WE/l5wZEmImpCtLqbnTvqDS2U1fJ96KrxoW7KrXhNsNCblQlg8Ck4b85yxdTyelsMUgFUXiw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -104,6 +104,17 @@ packages:
     dependencies:
       eslint: 8.50.0
       eslint-visitor-keys: 3.4.3
+    dev: true
+
+  /@eslint-community/eslint-utils@4.4.0(eslint@8.51.0):
+    resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+    dependencies:
+      eslint: 8.51.0
+      eslint-visitor-keys: 3.4.3
+    dev: false
 
   /@eslint-community/regexpp@4.8.1:
     resolution: {integrity: sha512-PWiOzLIUAjN/w5K17PoF4n6sKBw0gqLHPhywmYHP4t1VFQQVYeb1yWsJwnMVEMl3tUHME7X/SJPZLmtG7XBDxQ==}
@@ -128,6 +139,12 @@ packages:
   /@eslint/js@8.50.0:
     resolution: {integrity: sha512-NCC3zz2+nvYd+Ckfh87rA47zfu2QsQpvc6k1yzTk+b9KzRj0wkGa8LSoGOXN6Zv4lRf/EIoZ80biDh9HOI+RNQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@eslint/js@8.51.0:
+    resolution: {integrity: sha512-HxjQ8Qn+4SI3/AFv6sOrDB+g6PpUTDwSJiQqOrnneEk8L71161srI9gjzzZvYVbzHiVg/BvcH95+cK/zfIt4pg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.11:
     resolution: {integrity: sha512-N2brEuAadi0CcdeMXUkhbZB84eskAc8MEX1By6qEchoVywSgXPIjou4rYsl0V3Hj0ZnuGycGCjdNgockbzeWNA==}
@@ -360,8 +377,8 @@ packages:
       - typescript
     dev: false
 
-  /@oclif/plugin-help@5.2.19(@types/node@20.6.5)(typescript@5.2.2):
-    resolution: {integrity: sha512-gf6/dFtzMJ8RA4ovlBCBGJsZsd4jPXhYWJho+Gh6KmA+Ev9LupoExbE0qT+a2uHJyHEvIg4uX/MBW3qdERD/8g==}
+  /@oclif/plugin-help@5.2.20(@types/node@20.6.5)(typescript@5.2.2):
+    resolution: {integrity: sha512-u+GXX/KAGL9S10LxAwNUaWdzbEBARJ92ogmM7g3gDVud2HioCmvWQCDohNRVZ9GYV9oKwZ/M8xwd6a1d95rEKQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@oclif/core': 2.15.0(@types/node@20.6.5)(typescript@5.2.2)
@@ -372,8 +389,8 @@ packages:
       - typescript
     dev: false
 
-  /@oclif/plugin-plugins@3.8.0(@types/node@20.6.5)(typescript@5.2.2):
-    resolution: {integrity: sha512-yQ+M0REyP7DeCQQ4j4TDYV2bu0wy66tJzrO/ZN/ZHbwdzcyM3JmfQsqo9rBSXDJZf6FU2xL9P2+Gfj2VpG7qMw==}
+  /@oclif/plugin-plugins@3.9.1(@types/node@20.6.5)(typescript@5.2.2):
+    resolution: {integrity: sha512-86155GW6fQ8ZsmscffIOuvjjCCnXfuUJ/3dA+s6vqVgyGu8VshsHxnA9LCVja/Gz53j9TeaEog08IMcMDsmS7g==}
     engines: {node: '>=16'}
     dependencies:
       '@oclif/core': 2.15.0(@types/node@20.6.5)(typescript@5.2.2)
@@ -381,7 +398,7 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       http-call: 5.3.0
       load-json-file: 5.3.0
-      npm: 9.6.7
+      npm: 9.8.1
       npm-run-path: 4.0.1
       semver: 7.5.4
       shelljs: 0.8.5
@@ -438,7 +455,7 @@ packages:
       - debug
     dev: false
 
-  /@surgio/gateway@2.0.1(surgio@3.0.2):
+  /@surgio/gateway@2.0.1(surgio@3.1.0):
     resolution: {integrity: sha512-ddmcitjBVtPvNGA7eeMOt1PvS+Vef4A3ZQngSEc8oCHA1mFi8rgzRkwRv1cZKI0UD8UMWsUeV1YnAwEENKqLXg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -467,7 +484,7 @@ packages:
       semver: 7.5.4
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.0.2(@types/node@20.6.5)(typescript@5.2.2)
+      surgio: 3.1.0(@types/node@20.6.5)(typescript@5.2.2)
       youch: 3.3.2
     transitivePeerDependencies:
       - '@fastify/static'
@@ -534,8 +551,8 @@ packages:
       '@types/node': 20.6.5
     dev: false
 
-  /@types/eslint@8.44.3:
-    resolution: {integrity: sha512-iM/WfkwAhwmPff3wZuPLYiHX18HI24jU8k1ZSH7P8FHwxTjZ2P6CoX2wnF43oprR+YXJM6UUxATkNvyv/JHd+g==}
+  /@types/eslint@8.44.4:
+    resolution: {integrity: sha512-lOzjyfY/D9QR4hY9oblZ76B90MYTB3RrQ4z2vBIJKj9ROCRqdkYl2gSUx1x1a4IWPjKJZLL4Aw1Zfay7eMnmnA==}
     dependencies:
       '@types/estree': 1.0.2
       '@types/json-schema': 7.0.13
@@ -905,17 +922,17 @@ packages:
     resolution: {integrity: sha512-o03N/tQxfFONZ1XLGgIxOFHuQQpjpRdnSAL1THG1YWZIVp1JMUfjU3ElSAjFN1LjbJXa55IpC8waG+VEoLUCUw==}
     engines: {node: '>= 16.17.0'}
     dependencies:
-      cache-manager: 5.2.3
+      cache-manager: 5.2.4
       ioredis: 5.3.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /cache-manager@5.2.3:
-    resolution: {integrity: sha512-9OErI8fksFkxAMJ8Mco0aiZSdphyd90HcKiOMJQncSlU1yq/9lHHxrT8PDayxrmr9IIIZPOAEfXuGSD7g29uog==}
+  /cache-manager@5.2.4:
+    resolution: {integrity: sha512-gkuCjug16NdGvKm/sydxGVx17uffrSWcEe2xraBtwRCgdYcFxwJAla4OYpASAZT2yhSoxgDiWL9XH6IAChcZJA==}
     dependencies:
       lodash.clonedeep: 4.5.0
-      lru-cache: 9.1.2
+      lru-cache: 10.0.1
     dev: false
 
   /cacheable-lookup@5.0.4:
@@ -1681,6 +1698,53 @@ packages:
       text-table: 0.2.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /eslint@8.51.0:
+    resolution: {integrity: sha512-2WuxRZBrlwnXi+/vFSJyjMqrNjtJqiasMzehF0shoLaW7DzS3/9Yvrmq5JiT66+pNjiX4UBnLDiKHcWAr/OInA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    hasBin: true
+    dependencies:
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.51.0)
+      '@eslint-community/regexpp': 4.8.1
+      '@eslint/eslintrc': 2.1.2
+      '@eslint/js': 8.51.0
+      '@humanwhocodes/config-array': 0.11.11
+      '@humanwhocodes/module-importer': 1.0.1
+      '@nodelib/fs.walk': 1.2.8
+      ajv: 6.12.6
+      chalk: 4.1.2
+      cross-spawn: 7.0.3
+      debug: 4.3.4(supports-color@8.1.1)
+      doctrine: 3.0.0
+      escape-string-regexp: 4.0.0
+      eslint-scope: 7.2.2
+      eslint-visitor-keys: 3.4.3
+      espree: 9.6.1
+      esquery: 1.5.0
+      esutils: 2.0.3
+      fast-deep-equal: 3.1.3
+      file-entry-cache: 6.0.1
+      find-up: 5.0.0
+      glob-parent: 6.0.2
+      globals: 13.22.0
+      graphemer: 1.4.0
+      ignore: 5.2.4
+      imurmurhash: 0.1.4
+      is-glob: 4.0.3
+      is-path-inside: 3.0.3
+      js-yaml: 4.1.0
+      json-stable-stringify-without-jsonify: 1.0.1
+      levn: 0.4.1
+      lodash.merge: 4.6.2
+      minimatch: 3.1.2
+      natural-compare: 1.4.0
+      optionator: 0.9.3
+      strip-ansi: 6.0.1
+      text-table: 0.2.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /espree@9.6.1:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
@@ -1877,8 +1941,8 @@ packages:
       minimatch: 5.1.6
     dev: false
 
-  /filesize@10.0.12:
-    resolution: {integrity: sha512-6RS9gDchbn+qWmtV2uSjo5vmKizgfCQeb5jKmqx8HyzA3MoLqqyQxN+QcjkGBJt7FjJ9qFce67Auyya5rRRbpw==}
+  /filesize@10.1.0:
+    resolution: {integrity: sha512-GTLKYyBSDz3nPhlLVPjPWZCnhkd9TrrRArNcy8Z+J2cqScB7h2McAzR6NBX6nYOoWafql0roY8hrocxnZBv9CQ==}
     engines: {node: '>= 10.4.0'}
     dev: false
 
@@ -2762,11 +2826,6 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /lru-cache@9.1.2:
-    resolution: {integrity: sha512-ERJq3FOzJTxBbFjZ7iDs+NiK4VI9Wz+RdrrAB8dio1oV+YvdPzUEE4QNiT2VD51DkIbCYRUUzCRkssXCHqSnKQ==}
-    engines: {node: 14 || >=16.14}
-    dev: false
-
   /make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
@@ -3003,8 +3062,8 @@ packages:
       path-key: 4.0.0
     dev: true
 
-  /npm@9.6.7:
-    resolution: {integrity: sha512-xwkU1hSZl6Qrkfw3fhxVmMfNWu0A67+aZZs5gz/LoehCeAPkVhQDB90Z2NFoPSI1KpfBWCJ6Bp28wXzv5U5/2g==}
+  /npm@9.8.1:
+    resolution: {integrity: sha512-AfDvThQzsIXhYgk9zhbk5R+lh811lKkLAeQMMhSypf1BM7zUafeIIBzMzespeuVEJ0+LvY36oRQYf7IKLzU3rw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     hasBin: true
     dev: false
@@ -3012,8 +3071,10 @@ packages:
       - '@isaacs/string-locale-compare'
       - '@npmcli/arborist'
       - '@npmcli/config'
+      - '@npmcli/fs'
       - '@npmcli/map-workspaces'
       - '@npmcli/package-json'
+      - '@npmcli/promise-spawn'
       - '@npmcli/run-script'
       - abbrev
       - archy
@@ -3064,10 +3125,10 @@ packages:
       - proc-log
       - qrcode-terminal
       - read
-      - read-package-json
-      - read-package-json-fast
       - semver
+      - sigstore
       - ssri
+      - supports-color
       - tar
       - text-table
       - tiny-relative-date
@@ -4010,25 +4071,25 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /surgio@3.0.2(@types/node@20.6.5)(typescript@5.2.2):
-    resolution: {integrity: sha512-5AdVxrPYsVY1iSLSshstivVwTcUVXwcmb/gH70zhEYjt5o0dT1ysgFlxX1pUrdUiqlWOc95Wyv2Wqp+haswQoQ==}
+  /surgio@3.1.0(@types/node@20.6.5)(typescript@5.2.2):
+    resolution: {integrity: sha512-zpeeb87ZEmkxo1KiKUsxs6uawTLrA1TZCFgVxwlrzji7zdWJNog/gmWe8y2VULw+6Joy2T1Yli8aPasEAOQvcg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
-      '@babel/parser': 7.22.16
+      '@babel/parser': 7.23.0
       '@brillout/import': 0.2.3
       '@oclif/core': 2.15.0(@types/node@20.6.5)(typescript@5.2.2)
-      '@oclif/plugin-help': 5.2.19(@types/node@20.6.5)(typescript@5.2.2)
-      '@oclif/plugin-plugins': 3.8.0(@types/node@20.6.5)(typescript@5.2.2)
+      '@oclif/plugin-help': 5.2.20(@types/node@20.6.5)(typescript@5.2.2)
+      '@oclif/plugin-plugins': 3.9.1(@types/node@20.6.5)(typescript@5.2.2)
       '@royli/hygen': 6.2.0
       '@surgio/eslint-config-surgio': 1.0.6
       '@surgio/logger': 1.3.0
-      '@types/eslint': 8.44.3
+      '@types/eslint': 8.44.4
       agentkeepalive: 4.5.0
       ali-oss: 6.18.1
       bluebird: 3.7.2
       bytes: 3.1.2
-      cache-manager: 5.2.3
+      cache-manager: 5.2.4
       cache-manager-ioredis-yet: 1.2.2
       chalk: 4.1.2
       change-case: 4.1.2
@@ -4037,9 +4098,9 @@ packages:
       detect-newline: 3.1.0
       dotenv: 16.3.1
       emoji-regex: 10.2.1
-      eslint: 8.50.0
+      eslint: 8.51.0
       execa: 4.1.0
-      filesize: 10.0.12
+      filesize: 10.1.0
       fs-extra: 11.1.1
       got: 11.8.6
       hpagent: 1.2.0
@@ -4058,8 +4119,8 @@ packages:
       update-notifier: 5.1.0
       urlsafe-base64: 1.0.0
       yaml: 2.3.2
-      zod: 3.22.2
-      zod-validation-error: 1.5.0(zod@3.22.2)
+      zod: 3.22.4
+      zod-validation-error: 1.5.0(zod@3.22.4)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -4578,15 +4639,15 @@ packages:
       stacktracey: 2.1.8
     dev: false
 
-  /zod-validation-error@1.5.0(zod@3.22.2):
+  /zod-validation-error@1.5.0(zod@3.22.4):
     resolution: {integrity: sha512-/7eFkAI4qV0tcxMBB/3+d2c1P6jzzZYdYSlBuAklzMuCrJu5bzJfHS0yVAS87dRHVlhftd6RFJDIvv03JgkSbw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       zod: ^3.18.0
     dependencies:
-      zod: 3.22.2
+      zod: 3.22.4
     dev: false
 
-  /zod@3.22.2:
-    resolution: {integrity: sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==}
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
