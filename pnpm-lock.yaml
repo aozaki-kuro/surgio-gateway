@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@surgio/gateway':
     specifier: 2.0.1
-    version: 2.0.1(surgio@3.1.0)
+    version: 2.0.1(surgio@3.2.0)
   surgio:
-    specifier: 3.1.0
-    version: 3.1.0(@types/node@20.8.7)(typescript@5.2.2)
+    specifier: 3.2.0
+    version: 3.2.0(@types/node@20.8.7)(typescript@5.2.2)
 
 devDependencies:
   eslint:
@@ -438,7 +438,7 @@ packages:
       - debug
     dev: false
 
-  /@surgio/gateway@2.0.1(surgio@3.1.0):
+  /@surgio/gateway@2.0.1(surgio@3.2.0):
     resolution: {integrity: sha512-ddmcitjBVtPvNGA7eeMOt1PvS+Vef4A3ZQngSEc8oCHA1mFi8rgzRkwRv1cZKI0UD8UMWsUeV1YnAwEENKqLXg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -467,7 +467,7 @@ packages:
       semver: 7.5.4
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.1.0(@types/node@20.8.7)(typescript@5.2.2)
+      surgio: 3.2.0(@types/node@20.8.7)(typescript@5.2.2)
       youch: 3.3.2
     transitivePeerDependencies:
       - '@fastify/static'
@@ -1208,6 +1208,10 @@ packages:
   /commander@5.1.0:
     resolution: {integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==}
     engines: {node: '>= 6'}
+    dev: false
+
+  /compare-versions@6.1.0:
+    resolution: {integrity: sha512-LNZQXhqUvqUTotpZ00qLSaify3b4VFD588aRr8MKFw4CMUr98ytzCW5wDH5qx/DEY5kCDXcbcRuCqL0szEf2tg==}
     dev: false
 
   /concat-map@0.0.1:
@@ -4051,8 +4055,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /surgio@3.1.0(@types/node@20.8.7)(typescript@5.2.2):
-    resolution: {integrity: sha512-zpeeb87ZEmkxo1KiKUsxs6uawTLrA1TZCFgVxwlrzji7zdWJNog/gmWe8y2VULw+6Joy2T1Yli8aPasEAOQvcg==}
+  /surgio@3.2.0(@types/node@20.8.7)(typescript@5.2.2):
+    resolution: {integrity: sha512-LwSaM0hIgwYBDaEVG++u4+tW2gWdbRIm5EhZxm5RuOTqjm0JT5MVbFWu9x2g8DZ3uRGALoTvhQih+Q0YtIuC6w==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
@@ -4074,6 +4078,7 @@ packages:
       chalk: 4.1.2
       change-case: 4.1.2
       check-node-version: 4.2.1
+      compare-versions: 6.1.0
       date-fns: 2.30.0
       detect-newline: 3.1.0
       dotenv: 16.3.1
