@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@surgio/gateway": "2.0.1",
-    "surgio": "3.2.1"
+    "surgio": "3.2.2"
   },
   "devDependencies": {
     "eslint": "^8.45.0",
