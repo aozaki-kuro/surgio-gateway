@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@surgio/gateway':
     specifier: 2.1.0
-    version: 2.1.0(surgio@3.4.3)
+    version: 2.1.0(surgio@3.5.1)
   surgio:
-    specifier: 3.4.3
-    version: 3.4.3(@types/node@20.11.24)(typescript@5.3.3)
+    specifier: 3.5.1
+    version: 3.5.1(@types/node@20.11.24)(typescript@5.3.3)
 
 devDependencies:
   eslint:
@@ -438,7 +438,7 @@ packages:
       - debug
     dev: false
 
-  /@surgio/gateway@2.1.0(surgio@3.4.3):
+  /@surgio/gateway@2.1.0(surgio@3.5.1):
     resolution: {integrity: sha512-H0YkJFnHtQlpt1EvCi26qSZmDhNXaHk2JI7f9oh33UKgB4CC17dU7gujc9jrm7h5WZS1IG1fXkbiHa72Ki0Zug==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -467,7 +467,7 @@ packages:
       semver: 7.6.0
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.4.3(@types/node@20.11.24)(typescript@5.3.3)
+      surgio: 3.5.1(@types/node@20.11.24)(typescript@5.3.3)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -4138,8 +4138,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /surgio@3.4.3(@types/node@20.11.24)(typescript@5.3.3):
-    resolution: {integrity: sha512-uUK7MnrSTcFchp2rlva6ONgS7I9lF900ay/D8wmzKuU2WqdU5jyLcQerKET4WGDd2xbAv6Bt9bLRVeQXDYiIyQ==}
+  /surgio@3.5.1(@types/node@20.11.24)(typescript@5.3.3):
+    resolution: {integrity: sha512-di7kLlNCfDgGCwTbIfcygBxI9Jb9SW2JLizOdeiJoXaYaLFIyYd2bJyweMH6KV1pSBHx11UIUz83ZN9qy1iUhA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
@@ -4183,6 +4183,7 @@ packages:
       query-string: 7.1.3
       rimraf: 4.4.1
       source-map-support: 0.5.21
+      ts-expect: 1.3.0
       type-fest: 3.13.1
       update-notifier: 5.1.0
       urlsafe-base64: 1.0.0
@@ -4276,6 +4277,10 @@ packages:
   /triple-beam@1.4.1:
     resolution: {integrity: sha512-aZbgViZrg1QNcG+LULa7nhZpJTZSLm/mXnHXnbAbjmN5aSa0y7V+wvv6+4WaBtpISJzThKy+PIPxc1Nq1EJ9mg==}
     engines: {node: '>= 14.0.0'}
+    dev: false
+
+  /ts-expect@1.3.0:
+    resolution: {integrity: sha512-e4g0EJtAjk64xgnFPD6kTBUtpnMVzDrMb12N1YZV0VvSlhnVT3SGxiYTLdGy8Q5cYHOIC/FAHmZ10eGrAguicQ==}
     dev: false
 
   /ts-node@10.9.2(@types/node@20.11.24)(typescript@5.3.3):
