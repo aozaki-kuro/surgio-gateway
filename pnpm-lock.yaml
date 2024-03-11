@@ -10,7 +10,7 @@ dependencies:
     version: 2.1.0(surgio@3.5.1)
   surgio:
     specifier: 3.5.1
-    version: 3.5.1(@types/node@20.11.24)(typescript@5.3.3)
+    version: 3.5.1(@types/node@20.11.25)(typescript@5.4.2)
 
 devDependencies:
   eslint:
@@ -321,7 +321,7 @@ packages:
       - encoding
     dev: false
 
-  /@oclif/core@2.15.0(@types/node@20.11.24)(typescript@5.3.3):
+  /@oclif/core@2.15.0(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-fNEMG5DzJHhYmI3MgpByTvltBOMyFcnRIUMxbiz2ai8rhaYgaTHMG3Q38HcosfIvtw9nCjxpcQtC8MN8QtVCcA==}
     engines: {node: '>=14.0.0'}
     dependencies:
@@ -348,7 +348,7 @@ packages:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@types/node@20.11.24)(typescript@5.3.3)
+      ts-node: 10.9.2(@types/node@20.11.25)(typescript@5.4.2)
       tslib: 2.6.2
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -360,11 +360,11 @@ packages:
       - typescript
     dev: false
 
-  /@oclif/plugin-help@5.2.20(@types/node@20.11.24)(typescript@5.3.3):
+  /@oclif/plugin-help@5.2.20(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-u+GXX/KAGL9S10LxAwNUaWdzbEBARJ92ogmM7g3gDVud2HioCmvWQCDohNRVZ9GYV9oKwZ/M8xwd6a1d95rEKQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@oclif/core': 2.15.0(@types/node@20.11.24)(typescript@5.3.3)
+      '@oclif/core': 2.15.0(@types/node@20.11.25)(typescript@5.4.2)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -372,11 +372,11 @@ packages:
       - typescript
     dev: false
 
-  /@oclif/plugin-plugins@3.9.4(@types/node@20.11.24)(typescript@5.3.3):
+  /@oclif/plugin-plugins@3.9.4(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-JtumjspRdzJgHk1S10wu68tdlqSnyYRmSgCsmsc6AEvU+Orb0DQfrAgJEO77rPKPNo5MfnVAj0WyCDTi0JT/vw==}
     engines: {node: '>=16'}
     dependencies:
-      '@oclif/core': 2.15.0(@types/node@20.11.24)(typescript@5.3.3)
+      '@oclif/core': 2.15.0(@types/node@20.11.25)(typescript@5.4.2)
       chalk: 4.1.2
       debug: 4.3.4(supports-color@8.1.1)
       http-call: 5.3.0
@@ -387,7 +387,7 @@ packages:
       shelljs: 0.8.5
       tslib: 2.6.2
       validate-npm-package-name: 5.0.0
-      yarn: 1.22.21
+      yarn: 1.22.22
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -467,7 +467,7 @@ packages:
       semver: 7.6.0
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.5.1(@types/node@20.11.24)(typescript@5.3.3)
+      surgio: 3.5.1(@types/node@20.11.25)(typescript@5.4.2)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -486,7 +486,7 @@ packages:
   /@surgio/logger@1.3.0:
     resolution: {integrity: sha512-kfqErI1QaJog5u0voa/Jltx28JMlSSHhUB9xCi+EIlY6tVwzVnJ8BmDuPuuAfEmvdkWlifTXx29ZHPVM3H7Dzg==}
     dependencies:
-      winston: 3.11.0
+      winston: 3.12.0
     dev: false
 
   /@szmarczak/http-timer@1.1.2:
@@ -524,14 +524,14 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.11.24
+      '@types/node': 20.11.25
       '@types/responselike': 1.0.3
     dev: false
 
   /@types/cli-progress@3.11.5:
     resolution: {integrity: sha512-D4PbNRbviKyppS5ivBGyFO29POlySLmA2HyUFE4p5QGazAMM3CwkKWcvTl8gvElSuxRh6FPKL8XmidX873ou4g==}
     dependencies:
-      '@types/node': 20.11.24
+      '@types/node': 20.11.25
     dev: false
 
   /@types/eslint@8.56.5:
@@ -556,11 +556,11 @@ packages:
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.11.24
+      '@types/node': 20.11.25
     dev: false
 
-  /@types/node@20.11.24:
-    resolution: {integrity: sha512-Kza43ewS3xoLgCEpQrsT+xRo/EJej1y0kVYGiLFE1NEODXGzTfwiC6tXTLMQskn1X4/Rjlh0MQUvx9W+L9long==}
+  /@types/node@20.11.25:
+    resolution: {integrity: sha512-TBHyJxk2b7HceLVGFcpAUjsa5zIdsPWlR6XHfyGzd0SFu+/NFgQgMAl96MSDZgQDvJAvV6BKsFOrt6zIL09JDw==}
     dependencies:
       undici-types: 5.26.5
     dev: false
@@ -568,7 +568,7 @@ packages:
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 20.11.24
+      '@types/node': 20.11.25
     dev: false
 
   /@types/triple-beam@1.3.5:
@@ -656,7 +656,7 @@ packages:
       mime: 2.6.0
       platform: 1.3.6
       pump: 3.0.0
-      qs: 6.11.2
+      qs: 6.12.0
       sdk-base: 2.0.1
       stream-http: 2.8.2
       stream-wormhole: 1.1.0
@@ -965,7 +965,7 @@ packages:
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
-      set-function-length: 1.2.1
+      set-function-length: 1.2.2
     dev: false
 
   /callsites@3.1.0:
@@ -2078,7 +2078,7 @@ packages:
       function-bind: 1.1.2
       has-proto: 1.0.3
       has-symbols: 1.0.3
-      hasown: 2.0.1
+      hasown: 2.0.2
     dev: false
 
   /get-package-type@0.1.0:
@@ -2253,8 +2253,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /hasown@2.0.1:
-    resolution: {integrity: sha512-1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
+  /hasown@2.0.2:
+    resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
@@ -2487,7 +2487,7 @@ packages:
   /is-core-module@2.13.1:
     resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
     dependencies:
-      hasown: 2.0.1
+      hasown: 2.0.2
 
   /is-docker@2.2.1:
     resolution: {integrity: sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==}
@@ -3549,8 +3549,8 @@ packages:
       side-channel: 1.0.6
     dev: false
 
-  /qs@6.11.2:
-    resolution: {integrity: sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==}
+  /qs@6.12.0:
+    resolution: {integrity: sha512-trVZiI6RMOkO476zLGaBIzszOdFPnCCXHPG9kn0yuS1uz6xdVxPfZdB3vUig9pxPFDM9BRAgz/YUIVQ1/vuiUg==}
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.6
@@ -3868,8 +3868,8 @@ packages:
     engines: {node: '>=12.0'}
     dev: false
 
-  /set-function-length@1.2.1:
-    resolution: {integrity: sha512-j4t6ccc+VsKwYHso+kElc5neZpjtq9EnRICFZtWyBsLojhmeF/ZBd/elqm22WJh/BziDe/SBiOeAt0m2mfLD0g==}
+  /set-function-length@1.2.2:
+    resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.4
@@ -4138,16 +4138,16 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /surgio@3.5.1(@types/node@20.11.24)(typescript@5.3.3):
+  /surgio@3.5.1(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-di7kLlNCfDgGCwTbIfcygBxI9Jb9SW2JLizOdeiJoXaYaLFIyYd2bJyweMH6KV1pSBHx11UIUz83ZN9qy1iUhA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       '@babel/parser': 7.24.0
       '@brillout/import': 0.2.3
-      '@oclif/core': 2.15.0(@types/node@20.11.24)(typescript@5.3.3)
-      '@oclif/plugin-help': 5.2.20(@types/node@20.11.24)(typescript@5.3.3)
-      '@oclif/plugin-plugins': 3.9.4(@types/node@20.11.24)(typescript@5.3.3)
+      '@oclif/core': 2.15.0(@types/node@20.11.25)(typescript@5.4.2)
+      '@oclif/plugin-help': 5.2.20(@types/node@20.11.25)(typescript@5.4.2)
+      '@oclif/plugin-plugins': 3.9.4(@types/node@20.11.25)(typescript@5.4.2)
       '@royli/hygen': 6.2.0
       '@surgio/eslint-config-surgio': 1.0.6
       '@surgio/logger': 1.3.0
@@ -4187,7 +4187,7 @@ packages:
       type-fest: 3.13.1
       update-notifier: 5.1.0
       urlsafe-base64: 1.0.0
-      yaml: 2.4.0
+      yaml: 2.4.1
       zod: 3.22.4
       zod-validation-error: 1.5.0(zod@3.22.4)
     transitivePeerDependencies:
@@ -4283,7 +4283,7 @@ packages:
     resolution: {integrity: sha512-e4g0EJtAjk64xgnFPD6kTBUtpnMVzDrMb12N1YZV0VvSlhnVT3SGxiYTLdGy8Q5cYHOIC/FAHmZ10eGrAguicQ==}
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.11.24)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@20.11.25)(typescript@5.4.2):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -4302,14 +4302,14 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.24
+      '@types/node': 20.11.25
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.3.3
+      typescript: 5.4.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: false
@@ -4370,8 +4370,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: false
 
-  /typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+  /typescript@5.4.2:
+    resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
@@ -4485,7 +4485,7 @@ packages:
       iconv-lite: 0.4.24
       ip: 1.1.9
       pump: 3.0.0
-      qs: 6.11.2
+      qs: 6.12.0
       statuses: 1.5.0
       utility: 1.18.0
     transitivePeerDependencies:
@@ -4584,8 +4584,8 @@ packages:
       triple-beam: 1.4.1
     dev: false
 
-  /winston@3.11.0:
-    resolution: {integrity: sha512-L3yR6/MzZAOl0DsysUXHVjOwv8mKZ71TrA/41EIduGpOOV5LQVodqN+QdQ6BS6PJ/RdIshZhq84P/fStEZkk7g==}
+  /winston@3.12.0:
+    resolution: {integrity: sha512-OwbxKaOlESDi01mC9rkM0dQqQt2I8DAUMRLZ/HpbwvDXm85IryEHgoogy5fziQy38PntgZsLlhAYHz//UPHZ5w==}
     engines: {node: '>= 12.0.0'}
     dependencies:
       '@colors/colors': 1.6.0
@@ -4676,8 +4676,8 @@ packages:
     engines: {node: '>= 14'}
     dev: true
 
-  /yaml@2.4.0:
-    resolution: {integrity: sha512-j9iR8g+/t0lArF4V6NE/QCfT+CO7iLqrXAHZbJdo+LfjqP1vR8Fg5bSiaq6Q2lOD1AUEVrEVIgABvBFYojJVYQ==}
+  /yaml@2.4.1:
+    resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: false
@@ -4687,8 +4687,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /yarn@1.22.21:
-    resolution: {integrity: sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg==}
+  /yarn@1.22.22:
+    resolution: {integrity: sha512-prL3kGtyG7o9Z9Sv8IPfBNrWTDmXB4Qbes8A9rEzt6wkJV8mUvoirjU0Mp3GGAU06Y0XQyA3/2/RQFVuK7MTfg==}
     engines: {node: '>=4.0.0'}
     hasBin: true
     requiresBuild: true
