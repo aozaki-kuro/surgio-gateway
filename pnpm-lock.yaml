@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@surgio/gateway':
-    specifier: 2.1.0
-    version: 2.1.0(surgio@3.5.1)
+    specifier: 2.1.1
+    version: 2.1.1(surgio@3.5.1)
   surgio:
     specifier: 3.5.1
     version: 3.5.1(@types/node@20.11.25)(typescript@5.4.2)
@@ -438,11 +438,11 @@ packages:
       - debug
     dev: false
 
-  /@surgio/gateway@2.1.0(surgio@3.5.1):
-    resolution: {integrity: sha512-H0YkJFnHtQlpt1EvCi26qSZmDhNXaHk2JI7f9oh33UKgB4CC17dU7gujc9jrm7h5WZS1IG1fXkbiHa72Ki0Zug==}
+  /@surgio/gateway@2.1.1(surgio@3.5.1):
+    resolution: {integrity: sha512-c3Lve8BbndlGDR/jdr1up5MjZx+sagZcu3Q6E6ykoJotqfsLsf+2VO9TixlgpqmqnEC+Qva6qSFNwrMMKALFcg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      surgio: ^3.4.0
+      surgio: ^3.5.1
     dependencies:
       '@nestjs/common': 9.4.3(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/config': 2.3.4(@nestjs/common@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
