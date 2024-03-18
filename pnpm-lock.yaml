@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@surgio/gateway':
     specifier: 2.1.1
-    version: 2.1.1(surgio@3.6.3)
+    version: 2.1.1(surgio@3.6.4)
   surgio:
-    specifier: 3.6.3
-    version: 3.6.3(@types/node@20.11.28)(typescript@5.4.2)
+    specifier: 3.6.4
+    version: 3.6.4(@types/node@20.11.28)(typescript@5.4.2)
 
 devDependencies:
   eslint:
@@ -438,7 +438,7 @@ packages:
       - debug
     dev: false
 
-  /@surgio/gateway@2.1.1(surgio@3.6.3):
+  /@surgio/gateway@2.1.1(surgio@3.6.4):
     resolution: {integrity: sha512-c3Lve8BbndlGDR/jdr1up5MjZx+sagZcu3Q6E6ykoJotqfsLsf+2VO9TixlgpqmqnEC+Qva6qSFNwrMMKALFcg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -467,7 +467,7 @@ packages:
       semver: 7.6.0
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.6.3(@types/node@20.11.28)(typescript@5.4.2)
+      surgio: 3.6.4(@types/node@20.11.28)(typescript@5.4.2)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -4138,8 +4138,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /surgio@3.6.3(@types/node@20.11.28)(typescript@5.4.2):
-    resolution: {integrity: sha512-lkY59CigHFjsxx58MFIyBGFa42K1CJFrc2S0Or3i5OLCIBCrjq1K4AwUdfJYI0kTnyfLPzoZhAqIQdBFJVH12g==}
+  /surgio@3.6.4(@types/node@20.11.28)(typescript@5.4.2):
+    resolution: {integrity: sha512-H985FBVD9bCPHu7xNPX09Iv9aPVcgodp0ZNuHUY5SLMkfbKwuAB71DJnFHNOEVYiTd4PGrcP96UNWqxVTzNSiQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
