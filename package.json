@@ -9,7 +9,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@surgio/gateway": "2.1.1",
+    "@surgio/gateway": "2.2.0",
     "surgio": "3.6.6"
   },
   "devDependencies": {

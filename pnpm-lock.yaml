@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@surgio/gateway':
-    specifier: 2.1.1
-    version: 2.1.1(surgio@3.6.6)
+    specifier: 2.2.0
+    version: 2.2.0(surgio@3.6.6)
   surgio:
     specifier: 3.6.6
     version: 3.6.6(@types/node@20.11.30)(typescript@5.4.3)
@@ -438,8 +438,8 @@ packages:
       - debug
     dev: false
 
-  /@surgio/gateway@2.1.1(surgio@3.6.6):
-    resolution: {integrity: sha512-c3Lve8BbndlGDR/jdr1up5MjZx+sagZcu3Q6E6ykoJotqfsLsf+2VO9TixlgpqmqnEC+Qva6qSFNwrMMKALFcg==}
+  /@surgio/gateway@2.2.0(surgio@3.6.6):
+    resolution: {integrity: sha512-cnuI04Q0KRj8FiEyRDiirOmw3qOmJ+QvaPrunT/teAy06LgR78i2Ms9zHlX9m/rwo3crr3D6mlvCFKVmkyOlBw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       surgio: ^3.5.1
