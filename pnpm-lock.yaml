@@ -21,7 +21,7 @@ devDependencies:
     version: 9.1.0(eslint@9.0.0)
   eslint-plugin-n:
     specifier: ^17.0.0
-    version: 17.2.0(eslint@9.0.0)
+    version: 17.2.1(eslint@9.0.0)
   husky:
     specifier: ^9.0.0
     version: 9.0.11
@@ -1698,8 +1698,8 @@ packages:
       eslint-compat-utils: 0.5.0(eslint@9.0.0)
     dev: true
 
-  /eslint-plugin-n@17.2.0(eslint@9.0.0):
-    resolution: {integrity: sha512-XBkFQxjTFKy9oc925ezHcDoZ8VLdGfxRkdZf0poR4TjC+zvm28pG2Tc7ZZpD1/UxSAzbw6Zz0WpnpUX3KruAAA==}
+  /eslint-plugin-n@17.2.1(eslint@9.0.0):
+    resolution: {integrity: sha512-uW1+df2bo06kR7ix6nB614RUlvjRPrYxlaX832O6e1MCJp4V7YozEdvMgCYuvn4ltnjPu1FVYhQ2KRrmTNoJfg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
