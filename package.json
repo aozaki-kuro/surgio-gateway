@@ -13,12 +13,12 @@
     "surgio": "3.7.1"
   },
   "devDependencies": {
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-n": "^17.0.0",
-    "husky": "^9.0.0",
-    "lint-staged": "^15.0.0",
-    "prettier": "^3.0.0"
+    "eslint": "^9.2.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-n": "^17.4.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5"
   },
   "lint-staged": {
     "*.{js,mjs,cjs,jsx,ts,tsx}": [
