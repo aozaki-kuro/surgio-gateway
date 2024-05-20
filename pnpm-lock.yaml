@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@surgio/gateway':
         specifier: 2.2.0
-        version: 2.2.0(cache-manager@5.5.2)(surgio@3.8.1(@types/node@20.12.11)(typescript@5.4.5))
+        version: 2.2.0(cache-manager@5.5.2)(surgio@3.8.1(@types/node@20.12.12)(typescript@5.4.5))
       surgio:
         specifier: 3.8.1
-        version: 3.8.1(@types/node@20.12.11)(typescript@5.4.5)
+        version: 3.8.1(@types/node@20.12.12)(typescript@5.4.5)
     devDependencies:
       eslint:
         specifier: ^9.2.0
@@ -298,8 +298,8 @@ packages:
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
 
-  '@types/node@20.12.11':
-    resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
+  '@types/node@20.12.12':
+    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -422,8 +422,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  axios@1.6.8:
-    resolution: {integrity: sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==}
+  axios@1.7.0:
+    resolution: {integrity: sha512-IiB0wQeKyPRdsFVhBgIo31FbzOyf2M6wYl7/NVutFwFBRMiAbjNiydJIHKeLmPugF4kJLfA1uWZ82Is2QzqqFA==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1096,8 +1096,8 @@ packages:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
     engines: {node: '>= 6'}
 
-  formstream@1.3.1:
-    resolution: {integrity: sha512-FkW++ub+VbE5dpwukJVDizNWhSgp8FhmhI65pF7BZSVStBqe6Wgxe2Z9/Vhsn7l7nXCPwP+G1cyYlX8VwWOf0g==}
+  formstream@1.4.0:
+    resolution: {integrity: sha512-nEJvWnCujHjFMZjn3woD3tFnojT/w0wvUgPFOuASPmFFCJ4fJacqXowppN7lvhBuZb+QF41ZRLT+N6A6SxHBgA==}
 
   forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
@@ -1188,8 +1188,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.2.0:
-    resolution: {integrity: sha512-FQ5YwCHZM3nCmtb5FzEWwdUc9K5d3V/w9mzcz8iGD1gC/aOTHc6PouYu0kkKipNJqHAT7m51sqzQjEjIP+cK0A==}
+  globals@15.3.0:
+    resolution: {integrity: sha512-cCdyVjIUVTtX8ZsPkq1oCsOsLmGIswqnjZYMJJTGaNApj1yHtLSymKhwH51ttirREn75z3p4k051clwg7rvNKA==}
     engines: {node: '>=18'}
 
   globby@11.1.0:
@@ -2917,7 +2917,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@oclif/core@2.16.0(@types/node@20.12.11)(typescript@5.4.5)':
+  '@oclif/core@2.16.0(@types/node@20.12.12)(typescript@5.4.5)':
     dependencies:
       '@types/cli-progress': 3.11.5
       ansi-escapes: 4.3.2
@@ -2942,7 +2942,7 @@ snapshots:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@types/node@20.12.11)(typescript@5.4.5)
+      ts-node: 10.9.2(@types/node@20.12.12)(typescript@5.4.5)
       tslib: 2.6.2
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -2953,18 +2953,18 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-help@5.2.20(@types/node@20.12.11)(typescript@5.4.5)':
+  '@oclif/plugin-help@5.2.20(@types/node@20.12.12)(typescript@5.4.5)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@20.12.11)(typescript@5.4.5)
+      '@oclif/core': 2.16.0(@types/node@20.12.12)(typescript@5.4.5)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-plugins@3.9.4(@types/node@20.12.11)(typescript@5.4.5)':
+  '@oclif/plugin-plugins@3.9.4(@types/node@20.12.12)(typescript@5.4.5)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@20.12.11)(typescript@5.4.5)
+      '@oclif/core': 2.16.0(@types/node@20.12.12)(typescript@5.4.5)
       chalk: 4.1.2
       debug: 4.3.4(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3008,11 +3008,11 @@ snapshots:
 
   '@surgio/gateway-frontend@2.1.0':
     dependencies:
-      axios: 1.6.8
+      axios: 1.7.0
     transitivePeerDependencies:
       - debug
 
-  '@surgio/gateway@2.2.0(cache-manager@5.5.2)(surgio@3.8.1(@types/node@20.12.11)(typescript@5.4.5))':
+  '@surgio/gateway@2.2.0(cache-manager@5.5.2)(surgio@3.8.1(@types/node@20.12.12)(typescript@5.4.5))':
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.5.2)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.5.2)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3037,7 +3037,7 @@ snapshots:
       semver: 7.6.2
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.8.1(@types/node@20.12.11)(typescript@5.4.5)
+      surgio: 3.8.1(@types/node@20.12.12)(typescript@5.4.5)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -3076,12 +3076,12 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
       '@types/responselike': 1.0.3
 
   '@types/cli-progress@3.11.5':
     dependencies:
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
 
   '@types/eslint@8.56.10':
     dependencies:
@@ -3096,15 +3096,15 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
 
-  '@types/node@20.12.11':
+  '@types/node@20.12.12':
     dependencies:
       undici-types: 5.26.5
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
 
   '@types/triple-beam@1.3.5': {}
 
@@ -3225,7 +3225,7 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  axios@1.6.8:
+  axios@1.7.0:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -3761,7 +3761,7 @@ snapshots:
       eslint: 9.3.0
       eslint-plugin-es-x: 7.6.0(eslint@9.3.0)
       get-tsconfig: 4.7.5
-      globals: 15.2.0
+      globals: 15.3.0
       ignore: 5.3.1
       minimatch: 9.0.4
       semver: 7.6.2
@@ -4096,7 +4096,7 @@ snapshots:
       combined-stream: 1.0.8
       mime-types: 2.1.35
 
-  formstream@1.3.1:
+  formstream@1.4.0:
     dependencies:
       destroy: 1.2.0
       mime: 2.6.0
@@ -4195,7 +4195,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.2.0: {}
+  globals@15.3.0: {}
 
   globby@11.1.0:
     dependencies:
@@ -5314,13 +5314,13 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  surgio@3.8.1(@types/node@20.12.11)(typescript@5.4.5):
+  surgio@3.8.1(@types/node@20.12.12)(typescript@5.4.5):
     dependencies:
       '@babel/parser': 7.24.5
       '@brillout/import': 0.2.3
-      '@oclif/core': 2.16.0(@types/node@20.12.11)(typescript@5.4.5)
-      '@oclif/plugin-help': 5.2.20(@types/node@20.12.11)(typescript@5.4.5)
-      '@oclif/plugin-plugins': 3.9.4(@types/node@20.12.11)(typescript@5.4.5)
+      '@oclif/core': 2.16.0(@types/node@20.12.12)(typescript@5.4.5)
+      '@oclif/plugin-help': 5.2.20(@types/node@20.12.12)(typescript@5.4.5)
+      '@oclif/plugin-plugins': 3.9.4(@types/node@20.12.12)(typescript@5.4.5)
       '@royli/hygen': 6.2.0
       '@surgio/eslint-config-surgio': 1.0.6
       '@surgio/logger': 1.3.0
@@ -5420,14 +5420,14 @@ snapshots:
 
   ts-expect@1.3.0: {}
 
-  ts-node@10.9.2(@types/node@20.12.11)(typescript@5.4.5):
+  ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
@@ -5536,7 +5536,7 @@ snapshots:
       default-user-agent: 1.0.0
       digest-header: 1.1.0
       ee-first: 1.1.1
-      formstream: 1.3.1
+      formstream: 1.4.0
       humanize-ms: 1.2.1
       iconv-lite: 0.4.24
       ip: 1.1.9
