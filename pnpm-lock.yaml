@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@surgio/gateway':
         specifier: 2.2.0
-        version: 2.2.0(cache-manager@5.5.2)(surgio@3.8.2(@types/node@20.12.12)(typescript@5.4.5))
+        version: 2.2.0(cache-manager@5.5.2)(surgio@3.9.0(@types/node@20.12.12)(typescript@5.4.5))
       surgio:
-        specifier: 3.8.2
-        version: 3.8.2(@types/node@20.12.12)(typescript@5.4.5)
+        specifier: 3.9.0
+        version: 3.9.0(@types/node@20.12.12)(typescript@5.4.5)
     devDependencies:
       eslint:
         specifier: ^9.2.0
@@ -1623,10 +1623,6 @@ packages:
     resolution: {integrity: sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==}
     engines: {node: '>= 0.6'}
 
-  micromatch@4.0.5:
-    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
-    engines: {node: '>=8.6'}
-
   micromatch@4.0.6:
     resolution: {integrity: sha512-Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==}
     engines: {node: '>=8.6'}
@@ -2011,10 +2007,6 @@ packages:
 
   pause@0.0.1:
     resolution: {integrity: sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==}
-
-  picomatch@2.3.1:
-    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
-    engines: {node: '>=8.6'}
 
   picomatch@4.0.2:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
@@ -2416,9 +2408,9 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  surgio@3.8.2:
-    resolution: {integrity: sha512-kyP3nimY4NtthCXSKW+05Bt+R8F6yXdRcx9bIUG0Mjp9CYuxFutJ36ql4yNhYJe1iwWMlXFBj16oCI4Qg6VhNA==}
-    engines: {node: '>=18.0.0', pnpm: '>=9.0.0'}
+  surgio@3.9.0:
+    resolution: {integrity: sha512-+lovIqlDDGwKwM0Gi++l+qVZAF0eYTcfP8eWsyXEA1BJkYXYplK1AFb4VGR0h88WHr5ouAn68kRTnSozk1tsZg==}
+    engines: {node: '>=18.0.0'}
     hasBin: true
 
   swap-case@1.1.2:
@@ -3016,7 +3008,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@surgio/gateway@2.2.0(cache-manager@5.5.2)(surgio@3.8.2(@types/node@20.12.12)(typescript@5.4.5))':
+  '@surgio/gateway@2.2.0(cache-manager@5.5.2)(surgio@3.9.0(@types/node@20.12.12)(typescript@5.4.5))':
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.5.2)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.5.2)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3041,7 +3033,7 @@ snapshots:
       semver: 7.6.2
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.8.2(@types/node@20.12.12)(typescript@5.4.5)
+      surgio: 3.9.0(@types/node@20.12.12)(typescript@5.4.5)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -4022,7 +4014,7 @@ snapshots:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.5
+      micromatch: 4.0.6
 
   fast-json-stable-stringify@2.1.0: {}
 
@@ -4636,11 +4628,6 @@ snapshots:
 
   methods@1.1.2: {}
 
-  micromatch@4.0.5:
-    dependencies:
-      braces: 3.0.3
-      picomatch: 2.3.1
-
   micromatch@4.0.6:
     dependencies:
       braces: 3.0.3
@@ -4926,8 +4913,6 @@ snapshots:
       through: 2.3.8
 
   pause@0.0.1: {}
-
-  picomatch@2.3.1: {}
 
   picomatch@4.0.2: {}
 
@@ -5325,7 +5310,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  surgio@3.8.2(@types/node@20.12.12)(typescript@5.4.5):
+  surgio@3.9.0(@types/node@20.12.12)(typescript@5.4.5):
     dependencies:
       '@babel/parser': 7.24.5
       '@brillout/import': 0.2.3
@@ -5359,7 +5344,7 @@ snapshots:
       inquirer: 8.2.6
       ioredis: 5.4.1
       lodash: 4.17.21
-      micromatch: 4.0.5
+      micromatch: 4.0.6
       ms: 2.1.3
       node-dir: 0.1.17
       nunjucks: 3.2.4
