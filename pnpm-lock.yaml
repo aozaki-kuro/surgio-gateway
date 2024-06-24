@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@surgio/gateway':
         specifier: 2.2.0
-        version: 2.2.0(cache-manager@5.6.1)(surgio@3.9.1(@types/node@20.14.2)(typescript@5.4.5))
+        version: 2.2.0(cache-manager@5.6.1)(surgio@3.9.1(@types/node@20.14.8)(typescript@5.5.2))
       surgio:
         specifier: 3.9.1
-        version: 3.9.1(@types/node@20.14.2)(typescript@5.4.5)
+        version: 3.9.1(@types/node@20.14.8)(typescript@5.5.2)
     devDependencies:
       eslint:
         specifier: ^9.2.0
@@ -304,8 +304,8 @@ packages:
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
 
-  '@types/node@20.14.2':
-    resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
+  '@types/node@20.14.8':
+    resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -955,8 +955,8 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     hasBin: true
 
-  espree@10.0.1:
-    resolution: {integrity: sha512-MWkrWZbJsL2UwnjxTX3gG8FneachS/Mwg7tdGXce011sJd5b0JG54vat5KHnfSBODZ3Wvzd2WnjxyzsRoVv+ww==}
+  espree@10.1.0:
+    resolution: {integrity: sha512-M1M6CpiE6ffoigIOWYO9UDP8TMUw9kqb21tf+08IgDYjCsOvCuDt4jQcZmoYxx+w7zlKw9/N0KXfto+I8/FrXA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   espree@9.6.1:
@@ -1196,8 +1196,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.5.0:
-    resolution: {integrity: sha512-r7/9tQj5RylGxt/BKGv0D2SvehYvRFYg4ukSNk+EuZxvWI7uK/MJFmOCLq8aKvgh3EVBYFbBlOMAtaITXZr80w==}
+  globals@15.6.0:
+    resolution: {integrity: sha512-UzcJi88Hw//CurUIRa9Jxb0vgOCcuD/MNjwmXp633cyaRKkCWACkoqHCtfZv43b1kqXGg/fpOa8bwgacCeXsVg==}
     engines: {node: '>=18'}
 
   globby@11.1.0:
@@ -1374,8 +1374,9 @@ packages:
   is-class-hotfix@0.0.6:
     resolution: {integrity: sha512-0n+pzCC6ICtVr/WXnN2f03TK/3BfXY7me4cjCAqT8TYXEl0+JBRoqBo94JJHXcyDSLUeWbNX8Fvy5g5RJdAstQ==}
 
-  is-core-module@2.13.1:
-    resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
+  is-core-module@2.14.0:
+    resolution: {integrity: sha512-a5dFJih5ZLYlRtDc0dZWP7RiKr6xIKzmn/oAYCDvdLThadVgyJwlaoQPmRtMSpz+rk0OGAgIu+TcM9HUF0fk1A==}
+    engines: {node: '>= 0.4'}
 
   is-docker@2.2.1:
     resolution: {integrity: sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==}
@@ -1541,8 +1542,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  listr2@8.2.1:
-    resolution: {integrity: sha512-irTfvpib/rNiD637xeevjO2l3Z5loZmuaRi0L0YE5LfijwVY96oyVn0DFD3o/teAok7nfobMG1THvvcHh/BP6g==}
+  listr2@8.2.3:
+    resolution: {integrity: sha512-Lllokma2mtoniUOS94CcOErHWAug5iu7HOmDrvWgpw8jyQH2fomgB+7lZS4HWZxytUuQwkGOwe49FvwVaA85Xw==}
     engines: {node: '>=18.0.0'}
 
   load-json-file@5.3.0:
@@ -1863,8 +1864,9 @@ packages:
   object-filter@1.0.2:
     resolution: {integrity: sha512-NahvP2vZcy1ZiiYah30CEPw0FpDcSkSePJBMpzl5EQgCmISijiGuJm3SPYp7U+Lf2TljyaIw3E5EgkEx/TNEVA==}
 
-  object-inspect@1.13.1:
-    resolution: {integrity: sha512-5qoj1RUiKOMsCCNLV1CBiPYE10sziTsnmNxkAI/rZhiD63CF7IqdFGC/XzjWjpSgLf0LxXX3bDFIh0E18f6UhQ==}
+  object-inspect@1.13.2:
+    resolution: {integrity: sha512-IRZSRuzJiynemAXPYtPe5BoI/RESNYR7TYm50MC5Mqbd3Jmw5y790sErYw3V6SryFJD64b74qQQs9wn5Bg/k3g==}
+    engines: {node: '>= 0.4'}
 
   object-treeify@1.1.33:
     resolution: {integrity: sha512-EFVjAYfzWqWsBMRHPMAXLCDIJnpMhdWAqR7xG6M6a2cs6PMFpl/+Z20w9zDW4vkxOFfddegBKq9Rehd0bxWE7A==}
@@ -2539,8 +2541,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2805,7 +2807,7 @@ snapshots:
     dependencies:
       ajv: 6.12.6
       debug: 4.3.5(supports-color@8.1.1)
-      espree: 10.0.1
+      espree: 10.1.0
       globals: 14.0.0
       ignore: 5.3.1
       import-fresh: 3.3.0
@@ -2929,7 +2931,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@oclif/core@2.16.0(@types/node@20.14.2)(typescript@5.4.5)':
+  '@oclif/core@2.16.0(@types/node@20.14.8)(typescript@5.5.2)':
     dependencies:
       '@types/cli-progress': 3.11.5
       ansi-escapes: 4.3.2
@@ -2954,7 +2956,7 @@ snapshots:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@types/node@20.14.2)(typescript@5.4.5)
+      ts-node: 10.9.2(@types/node@20.14.8)(typescript@5.5.2)
       tslib: 2.6.3
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -2965,18 +2967,18 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-help@5.2.20(@types/node@20.14.2)(typescript@5.4.5)':
+  '@oclif/plugin-help@5.2.20(@types/node@20.14.8)(typescript@5.5.2)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@20.14.2)(typescript@5.4.5)
+      '@oclif/core': 2.16.0(@types/node@20.14.8)(typescript@5.5.2)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-plugins@3.10.1(@types/node@20.14.2)(typescript@5.4.5)':
+  '@oclif/plugin-plugins@3.10.1(@types/node@20.14.8)(typescript@5.5.2)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@20.14.2)(typescript@5.4.5)
+      '@oclif/core': 2.16.0(@types/node@20.14.8)(typescript@5.5.2)
       chalk: 4.1.2
       debug: 4.3.5(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3024,7 +3026,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@surgio/gateway@2.2.0(cache-manager@5.6.1)(surgio@3.9.1(@types/node@20.14.2)(typescript@5.4.5))':
+  '@surgio/gateway@2.2.0(cache-manager@5.6.1)(surgio@3.9.1(@types/node@20.14.8)(typescript@5.5.2))':
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.6.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.6.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3049,7 +3051,7 @@ snapshots:
       semver: 7.6.2
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.9.1(@types/node@20.14.2)(typescript@5.4.5)
+      surgio: 3.9.1(@types/node@20.14.8)(typescript@5.5.2)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -3088,12 +3090,12 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.14.2
+      '@types/node': 20.14.8
       '@types/responselike': 1.0.3
 
   '@types/cli-progress@3.11.5':
     dependencies:
-      '@types/node': 20.14.2
+      '@types/node': 20.14.8
 
   '@types/eslint@8.56.10':
     dependencies:
@@ -3108,15 +3110,15 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.14.2
+      '@types/node': 20.14.8
 
-  '@types/node@20.14.2':
+  '@types/node@20.14.8':
     dependencies:
       undici-types: 5.26.5
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.14.2
+      '@types/node': 20.14.8
 
   '@types/triple-beam@1.3.5': {}
 
@@ -3775,7 +3777,7 @@ snapshots:
       eslint: 9.5.0
       eslint-plugin-es-x: 7.7.0(eslint@9.5.0)
       get-tsconfig: 4.7.5
-      globals: 15.5.0
+      globals: 15.6.0
       ignore: 5.3.1
       minimatch: 9.0.4
       semver: 7.6.2
@@ -3854,7 +3856,7 @@ snapshots:
       escape-string-regexp: 4.0.0
       eslint-scope: 8.0.1
       eslint-visitor-keys: 4.0.0
-      espree: 10.0.1
+      espree: 10.1.0
       esquery: 1.5.0
       esutils: 2.0.3
       fast-deep-equal: 3.1.3
@@ -3876,7 +3878,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  espree@10.0.1:
+  espree@10.1.0:
     dependencies:
       acorn: 8.12.0
       acorn-jsx: 5.3.2(acorn@8.12.0)
@@ -4210,7 +4212,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.5.0: {}
+  globals@15.6.0: {}
 
   globby@11.1.0:
     dependencies:
@@ -4411,7 +4413,7 @@ snapshots:
 
   is-class-hotfix@0.0.6: {}
 
-  is-core-module@2.13.1:
+  is-core-module@2.14.0:
     dependencies:
       hasown: 2.0.2
 
@@ -4550,7 +4552,7 @@ snapshots:
       debug: 4.3.5(supports-color@8.1.1)
       execa: 8.0.1
       lilconfig: 3.1.2
-      listr2: 8.2.1
+      listr2: 8.2.3
       micromatch: 4.0.7
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -4558,7 +4560,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  listr2@8.2.1:
+  listr2@8.2.3:
     dependencies:
       cli-truncate: 4.0.0
       colorette: 2.0.20
@@ -4771,7 +4773,7 @@ snapshots:
 
   object-filter@1.0.2: {}
 
-  object-inspect@1.13.1: {}
+  object-inspect@1.13.2: {}
 
   object-treeify@1.1.33: {}
 
@@ -5065,7 +5067,7 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -5201,7 +5203,7 @@ snapshots:
       call-bind: 1.0.7
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
-      object-inspect: 1.13.1
+      object-inspect: 1.13.2
 
   signal-exit@3.0.7: {}
 
@@ -5331,13 +5333,13 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  surgio@3.9.1(@types/node@20.14.2)(typescript@5.4.5):
+  surgio@3.9.1(@types/node@20.14.8)(typescript@5.5.2):
     dependencies:
       '@babel/parser': 7.24.7
       '@brillout/import': 0.2.3
-      '@oclif/core': 2.16.0(@types/node@20.14.2)(typescript@5.4.5)
-      '@oclif/plugin-help': 5.2.20(@types/node@20.14.2)(typescript@5.4.5)
-      '@oclif/plugin-plugins': 3.10.1(@types/node@20.14.2)(typescript@5.4.5)
+      '@oclif/core': 2.16.0(@types/node@20.14.8)(typescript@5.5.2)
+      '@oclif/plugin-help': 5.2.20(@types/node@20.14.8)(typescript@5.5.2)
+      '@oclif/plugin-plugins': 3.10.1(@types/node@20.14.8)(typescript@5.5.2)
       '@royli/hygen': 6.2.0
       '@surgio/eslint-config-surgio': 1.0.6
       '@surgio/logger': 1.3.0
@@ -5437,21 +5439,21 @@ snapshots:
 
   ts-expect@1.3.0: {}
 
-  ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5):
+  ts-node@10.9.2(@types/node@20.14.8)(typescript@5.5.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.14.2
+      '@types/node': 20.14.8
       acorn: 8.12.0
       acorn-walk: 8.3.3
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.4.5
+      typescript: 5.5.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
@@ -5486,7 +5488,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@5.4.5: {}
+  typescript@5.5.2: {}
 
   uid@2.0.2:
     dependencies:
