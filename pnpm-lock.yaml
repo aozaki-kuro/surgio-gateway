@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@surgio/gateway':
         specifier: 2.2.0
-        version: 2.2.0(cache-manager@5.6.1)(surgio@3.9.1(@types/node@20.14.8)(typescript@5.5.2))
+        version: 2.2.0(cache-manager@5.6.1)(surgio@3.9.2(@types/node@20.14.8)(typescript@5.5.2))
       surgio:
-        specifier: 3.9.1
-        version: 3.9.1(@types/node@20.14.8)(typescript@5.5.2)
+        specifier: 3.9.2
+        version: 3.9.2(@types/node@20.14.8)(typescript@5.5.2)
     devDependencies:
       eslint:
         specifier: ^9.2.0
@@ -2428,8 +2428,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  surgio@3.9.1:
-    resolution: {integrity: sha512-PCQjwEc2u2ujPFfRynaCPIDdSmxsjIk2H7/TS8yjuCdKk685sMr+wNSowTux5cU7J6MYJl6MGzVbHA8lI3CLFQ==}
+  surgio@3.9.2:
+    resolution: {integrity: sha512-y7p16U9fkDHyC7M0QzuY5mPYWwVNMUDCFodD1fQtyczTAFlMeWIHGS8PB3F+iAq/BMKVjO8e9pgm913W5QDUPQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -3032,7 +3032,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@surgio/gateway@2.2.0(cache-manager@5.6.1)(surgio@3.9.1(@types/node@20.14.8)(typescript@5.5.2))':
+  '@surgio/gateway@2.2.0(cache-manager@5.6.1)(surgio@3.9.2(@types/node@20.14.8)(typescript@5.5.2))':
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.6.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.6.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3057,7 +3057,7 @@ snapshots:
       semver: 7.6.2
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.9.1(@types/node@20.14.8)(typescript@5.5.2)
+      surgio: 3.9.2(@types/node@20.14.8)(typescript@5.5.2)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -5339,7 +5339,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  surgio@3.9.1(@types/node@20.14.8)(typescript@5.5.2):
+  surgio@3.9.2(@types/node@20.14.8)(typescript@5.5.2):
     dependencies:
       '@babel/parser': 7.24.7
       '@brillout/import': 0.2.3
