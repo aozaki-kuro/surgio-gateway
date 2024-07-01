@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@surgio/gateway':
         specifier: 2.2.0
-        version: 2.2.0(cache-manager@5.6.1)(surgio@3.9.2(@types/node@20.14.8)(typescript@5.5.2))
+        version: 2.2.0(cache-manager@5.6.1)(surgio@3.9.2(@types/node@20.14.9)(typescript@5.5.2))
       surgio:
         specifier: 3.9.2
-        version: 3.9.2(@types/node@20.14.8)(typescript@5.5.2)
+        version: 3.9.2(@types/node@20.14.9)(typescript@5.5.2)
     devDependencies:
       eslint:
         specifier: ^9.2.0
@@ -76,10 +76,6 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
-
-  '@eslint-community/regexpp@4.10.1':
-    resolution: {integrity: sha512-Zm2NGpWELsQAD1xsJzGQpYfvICSsFkEpU0jxBjfdC6uNEWXcHnfs9hScFWtXVDVl+rBQJGrl4g1vcKIejpH9dA==}
-    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
   '@eslint-community/regexpp@4.11.0':
     resolution: {integrity: sha512-G/M/tIiMrTAxEWRfLfQJMmGNX28IxBg4PBz8XqQhqUHLFI6TL2htpIB1iQCj144V5ee/JaKyT9/WZ0MGZWfA7A==}
@@ -308,8 +304,8 @@ packages:
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
 
-  '@types/node@20.14.8':
-    resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
+  '@types/node@20.14.9':
+    resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -1200,8 +1196,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.6.0:
-    resolution: {integrity: sha512-UzcJi88Hw//CurUIRa9Jxb0vgOCcuD/MNjwmXp633cyaRKkCWACkoqHCtfZv43b1kqXGg/fpOa8bwgacCeXsVg==}
+  globals@15.7.0:
+    resolution: {integrity: sha512-ivatRXWwKC6ImcdKO7dOwXuXR5XFrdwo45qFwD7D0qOkEPzzJdLXC3BHceBdyrPOD3p1suPaWi4Y4NMm2D++AQ==}
     engines: {node: '>=18'}
 
   globby@11.1.0:
@@ -1602,8 +1598,8 @@ packages:
     resolution: {integrity: sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==}
     engines: {node: '>=8'}
 
-  lru-cache@10.2.2:
-    resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
+  lru-cache@10.3.0:
+    resolution: {integrity: sha512-CQl19J/g+Hbjbv4Y3mFNNXFEL/5t/KCg8POCuUqd4rMKjGG+j1ybER83hxV58zL+dFI1PTkt3GNFSHRt+d8qEQ==}
     engines: {node: 14 || >=16.14}
 
   make-dir@3.1.0:
@@ -1686,8 +1682,8 @@ packages:
     resolution: {integrity: sha512-W0Wvr9HyFXZRGIDgCicunpQ299OKXs9RgZfaukz4qAW/pJhcpUfupc9c+OObPOFueNy8VSrZgEmDtk6Kh4WzDA==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  minimatch@9.0.4:
-    resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
+  minimatch@9.0.5:
+    resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
     engines: {node: '>=16 || 14 >=14.17'}
 
   minimist@1.2.8:
@@ -2374,8 +2370,8 @@ packages:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
     engines: {node: '>=8'}
 
-  string-width@7.1.0:
-    resolution: {integrity: sha512-SEIJCWiX7Kg4c129n48aDRwLbFb2LJmXXFrWBG4NGaRtMQ3myKPKbwrD1BKqQn74oCoNMBVrfDEr5M9YxCsrkw==}
+  string-width@7.2.0:
+    resolution: {integrity: sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==}
     engines: {node: '>=18'}
 
   string_decoder@1.1.1:
@@ -2783,8 +2779,6 @@ snapshots:
       eslint: 9.6.0
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/regexpp@4.10.1': {}
-
   '@eslint-community/regexpp@4.11.0': {}
 
   '@eslint/config-array@0.17.0':
@@ -2937,7 +2931,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@oclif/core@2.16.0(@types/node@20.14.8)(typescript@5.5.2)':
+  '@oclif/core@2.16.0(@types/node@20.14.9)(typescript@5.5.2)':
     dependencies:
       '@types/cli-progress': 3.11.5
       ansi-escapes: 4.3.2
@@ -2962,7 +2956,7 @@ snapshots:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@types/node@20.14.8)(typescript@5.5.2)
+      ts-node: 10.9.2(@types/node@20.14.9)(typescript@5.5.2)
       tslib: 2.6.3
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -2973,18 +2967,18 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-help@5.2.20(@types/node@20.14.8)(typescript@5.5.2)':
+  '@oclif/plugin-help@5.2.20(@types/node@20.14.9)(typescript@5.5.2)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@20.14.8)(typescript@5.5.2)
+      '@oclif/core': 2.16.0(@types/node@20.14.9)(typescript@5.5.2)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-plugins@3.10.1(@types/node@20.14.8)(typescript@5.5.2)':
+  '@oclif/plugin-plugins@3.10.1(@types/node@20.14.9)(typescript@5.5.2)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@20.14.8)(typescript@5.5.2)
+      '@oclif/core': 2.16.0(@types/node@20.14.9)(typescript@5.5.2)
       chalk: 4.1.2
       debug: 4.3.5(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3032,7 +3026,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@surgio/gateway@2.2.0(cache-manager@5.6.1)(surgio@3.9.2(@types/node@20.14.8)(typescript@5.5.2))':
+  '@surgio/gateway@2.2.0(cache-manager@5.6.1)(surgio@3.9.2(@types/node@20.14.9)(typescript@5.5.2))':
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.6.1)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.6.1)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
@@ -3057,7 +3051,7 @@ snapshots:
       semver: 7.6.2
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.9.2(@types/node@20.14.8)(typescript@5.5.2)
+      surgio: 3.9.2(@types/node@20.14.9)(typescript@5.5.2)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -3096,12 +3090,12 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.14.8
+      '@types/node': 20.14.9
       '@types/responselike': 1.0.3
 
   '@types/cli-progress@3.11.5':
     dependencies:
-      '@types/node': 20.14.8
+      '@types/node': 20.14.9
 
   '@types/eslint@8.56.10':
     dependencies:
@@ -3116,15 +3110,15 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.14.8
+      '@types/node': 20.14.9
 
-  '@types/node@20.14.8':
+  '@types/node@20.14.9':
     dependencies:
       undici-types: 5.26.5
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.14.8
+      '@types/node': 20.14.9
 
   '@types/triple-beam@1.3.5': {}
 
@@ -3353,7 +3347,7 @@ snapshots:
     dependencies:
       eventemitter3: 5.0.1
       lodash.clonedeep: 4.5.0
-      lru-cache: 10.2.2
+      lru-cache: 10.3.0
       promise-coalesce: 1.1.2
 
   cacheable-lookup@5.0.4: {}
@@ -3495,7 +3489,7 @@ snapshots:
   cli-truncate@4.0.0:
     dependencies:
       slice-ansi: 5.0.0
-      string-width: 7.1.0
+      string-width: 7.2.0
 
   cli-width@3.0.0: {}
 
@@ -3772,7 +3766,7 @@ snapshots:
   eslint-plugin-es-x@7.7.0(eslint@9.6.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.6.0)
-      '@eslint-community/regexpp': 4.10.1
+      '@eslint-community/regexpp': 4.11.0
       eslint: 9.6.0
       eslint-compat-utils: 0.5.1(eslint@9.6.0)
 
@@ -3783,9 +3777,9 @@ snapshots:
       eslint: 9.6.0
       eslint-plugin-es-x: 7.7.0(eslint@9.6.0)
       get-tsconfig: 4.7.5
-      globals: 15.6.0
+      globals: 15.7.0
       ignore: 5.3.1
-      minimatch: 9.0.4
+      minimatch: 9.0.5
       semver: 7.6.2
 
   eslint-scope@7.2.2:
@@ -4218,7 +4212,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@15.6.0: {}
+  globals@15.7.0: {}
 
   globby@11.1.0:
     dependencies:
@@ -4633,7 +4627,7 @@ snapshots:
 
   lowercase-keys@2.0.0: {}
 
-  lru-cache@10.2.2: {}
+  lru-cache@10.3.0: {}
 
   make-dir@3.1.0:
     dependencies:
@@ -4690,7 +4684,7 @@ snapshots:
     dependencies:
       brace-expansion: 2.0.1
 
-  minimatch@9.0.4:
+  minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.1
 
@@ -4926,7 +4920,7 @@ snapshots:
 
   path-scurry@1.11.1:
     dependencies:
-      lru-cache: 10.2.2
+      lru-cache: 10.3.0
       minipass: 7.1.2
 
   path-to-regexp@0.1.7: {}
@@ -5292,7 +5286,7 @@ snapshots:
       is-fullwidth-code-point: 3.0.0
       strip-ansi: 6.0.1
 
-  string-width@7.1.0:
+  string-width@7.2.0:
     dependencies:
       emoji-regex: 10.3.0
       get-east-asian-width: 1.2.0
@@ -5339,13 +5333,13 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  surgio@3.9.2(@types/node@20.14.8)(typescript@5.5.2):
+  surgio@3.9.2(@types/node@20.14.9)(typescript@5.5.2):
     dependencies:
       '@babel/parser': 7.24.7
       '@brillout/import': 0.2.3
-      '@oclif/core': 2.16.0(@types/node@20.14.8)(typescript@5.5.2)
-      '@oclif/plugin-help': 5.2.20(@types/node@20.14.8)(typescript@5.5.2)
-      '@oclif/plugin-plugins': 3.10.1(@types/node@20.14.8)(typescript@5.5.2)
+      '@oclif/core': 2.16.0(@types/node@20.14.9)(typescript@5.5.2)
+      '@oclif/plugin-help': 5.2.20(@types/node@20.14.9)(typescript@5.5.2)
+      '@oclif/plugin-plugins': 3.10.1(@types/node@20.14.9)(typescript@5.5.2)
       '@royli/hygen': 6.2.0
       '@surgio/eslint-config-surgio': 1.0.6
       '@surgio/logger': 1.3.0
@@ -5445,14 +5439,14 @@ snapshots:
 
   ts-expect@1.3.0: {}
 
-  ts-node@10.9.2(@types/node@20.14.8)(typescript@5.5.2):
+  ts-node@10.9.2(@types/node@20.14.9)(typescript@5.5.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.14.8
+      '@types/node': 20.14.9
       acorn: 8.12.0
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -5656,7 +5650,7 @@ snapshots:
   wrap-ansi@9.0.0:
     dependencies:
       ansi-styles: 6.2.1
-      string-width: 7.1.0
+      string-width: 7.2.0
       strip-ansi: 7.1.0
 
   wrappy@1.0.2: {}
