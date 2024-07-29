@@ -26,7 +26,7 @@ importers:
         version: 17.10.1(eslint@9.8.0)
       husky:
         specifier: ^9.0.11
-        version: 9.1.3
+        version: 9.1.4
       lint-staged:
         specifier: ^15.2.2
         version: 15.2.7
@@ -1288,8 +1288,8 @@ packages:
   humanize-ms@1.2.1:
     resolution: {integrity: sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==}
 
-  husky@9.1.3:
-    resolution: {integrity: sha512-ET3TQmQgdIu0pt+jKkpo5oGyg/4MQZpG6xcam5J5JyNJV+CBT23OBpCF15bKHKycRyMH9k6ONy8g2HdGIsSkMQ==}
+  husky@9.1.4:
+    resolution: {integrity: sha512-bho94YyReb4JV7LYWRWxZ/xr6TtOTt8cMfmQ39MQYJ7f/YE268s3GdghGwi+y4zAeqewE5zYLvuhV0M0ijsDEA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4345,7 +4345,7 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  husky@9.1.3: {}
+  husky@9.1.4: {}
 
   hyperlinker@1.0.0: {}
 
