@@ -1,6 +1,7 @@
-FROM node:18-alpine
+FROM node:lts-alpine
 
 ENV TZ=Asia/Shanghai
+ENV HUSKY=0
 
 WORKDIR /app
 
@@ -11,7 +12,6 @@ RUN npm i -g pm2
 RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
 
-RUN pnpm pkg delete scripts.prepare
 RUN pnpm i -P
 
 CMD ["pm2-runtime", "start", "ecosystem.config.js"]
