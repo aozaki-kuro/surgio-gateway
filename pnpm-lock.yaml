@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@surgio/gateway':
         specifier: 2.2.0
-        version: 2.2.0(cache-manager@5.7.4)(surgio@3.9.2(@types/node@22.1.0)(typescript@5.5.4))
+        version: 2.2.0(cache-manager@5.7.6)(surgio@3.9.2(@types/node@22.2.0)(typescript@5.5.4))
       surgio:
         specifier: 3.9.2
-        version: 3.9.2(@types/node@22.1.0)(typescript@5.5.4)
+        version: 3.9.2(@types/node@22.2.0)(typescript@5.5.4)
     devDependencies:
       eslint:
         specifier: ^9.2.0
@@ -304,8 +304,8 @@ packages:
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
 
-  '@types/node@22.1.0':
-    resolution: {integrity: sha512-AOmuRF0R2/5j1knA3c6G3HOk523Ga+l+ZXltX8SF1+5oqcXijjfTd8fY3XRZqSihEu9XhtQnKYLmkFaoxgsJHw==}
+  '@types/node@22.2.0':
+    resolution: {integrity: sha512-bm6EG6/pCpkxDf/0gDNDdtDILMOHgaQBVOJGdwsqClnxA3xL6jtMv76rLBc006RVMWbmaf0xbmom4Z/5o2nRkQ==}
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -489,8 +489,8 @@ packages:
     resolution: {integrity: sha512-o03N/tQxfFONZ1XLGgIxOFHuQQpjpRdnSAL1THG1YWZIVp1JMUfjU3ElSAjFN1LjbJXa55IpC8waG+VEoLUCUw==}
     engines: {node: '>= 16.17.0'}
 
-  cache-manager@5.7.4:
-    resolution: {integrity: sha512-7B29xK1D8hOVdrP0SAy2DGJ/QZxy2TqxS8s2drlLGYI/xOTSJmXfatks7aKKNHvXN6SnKnPtYCi0T82lslB3Fw==}
+  cache-manager@5.7.6:
+    resolution: {integrity: sha512-wBxnBHjDxF1RXpHCBD6HGvKER003Ts7IIm0CHpggliHzN1RZditb7rXoduE1rplc2DEFYKxhLKgFuchXMJje9w==}
     engines: {node: '>= 18'}
 
   cacheable-lookup@5.0.4:
@@ -2672,8 +2672,8 @@ packages:
     resolution: {integrity: sha512-wQCXXVgfv/wUPOfb2x0ruxzwkcZfxcktz6JIMUaPLmcNhO4bZTwA/WtDWK74xV3F2dKu8YadrFv0qhwYjVEwhA==}
     engines: {node: '>= 12.0.0'}
 
-  winston@3.13.1:
-    resolution: {integrity: sha512-SvZit7VFNvXRzbqGHsv5KSmgbEYR5EiQfDAL9gxYkRqa934Hnk++zze0wANKtMHcy/gI4W/3xmSDwlhf865WGw==}
+  winston@3.14.1:
+    resolution: {integrity: sha512-CJi4Il/msz8HkdDfXOMu+r5Au/oyEjFiOZzbX2d23hRLY0narGjqfE5lFlrT5hfYJhPtM8b85/GNFsxIML/RVA==}
     engines: {node: '>= 12.0.0'}
 
   word-wrap@1.2.5:
@@ -2866,7 +2866,7 @@ snapshots:
 
   '@lukeed/csprng@1.1.0': {}
 
-  '@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1)':
+  '@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)':
     dependencies:
       iterare: 1.2.1
       reflect-metadata: 0.1.14
@@ -2874,11 +2874,11 @@ snapshots:
       tslib: 2.5.3
       uid: 2.0.2
     optionalDependencies:
-      cache-manager: 5.7.4
+      cache-manager: 5.7.6
 
-  '@nestjs/config@2.3.4(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)':
+  '@nestjs/config@2.3.4(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)':
     dependencies:
-      '@nestjs/common': 9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       dotenv: 16.1.4
       dotenv-expand: 10.0.0
       lodash: 4.17.21
@@ -2886,9 +2886,9 @@ snapshots:
       rxjs: 7.8.1
       uuid: 9.0.0
 
-  '@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)':
+  '@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)':
     dependencies:
-      '@nestjs/common': 9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
@@ -2898,19 +2898,19 @@ snapshots:
       tslib: 2.5.3
       uid: 2.0.2
     optionalDependencies:
-      '@nestjs/platform-express': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
+      '@nestjs/platform-express': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
     transitivePeerDependencies:
       - encoding
 
-  '@nestjs/passport@9.0.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(passport@0.6.0)':
+  '@nestjs/passport@9.0.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(passport@0.6.0)':
     dependencies:
-      '@nestjs/common': 9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       passport: 0.6.0
 
-  '@nestjs/platform-express@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)':
+  '@nestjs/platform-express@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)':
     dependencies:
-      '@nestjs/common': 9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       body-parser: 1.20.2
       cors: 2.8.5
       express: 4.18.2
@@ -2919,10 +2919,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nestjs/serve-static@3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.19.2)':
+  '@nestjs/serve-static@3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.19.2)':
     dependencies:
-      '@nestjs/common': 9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       path-to-regexp: 0.2.5
     optionalDependencies:
       express: 4.19.2
@@ -2947,7 +2947,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@oclif/core@2.16.0(@types/node@22.1.0)(typescript@5.5.4)':
+  '@oclif/core@2.16.0(@types/node@22.2.0)(typescript@5.5.4)':
     dependencies:
       '@types/cli-progress': 3.11.6
       ansi-escapes: 4.3.2
@@ -2972,7 +2972,7 @@ snapshots:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@types/node@22.1.0)(typescript@5.5.4)
+      ts-node: 10.9.2(@types/node@22.2.0)(typescript@5.5.4)
       tslib: 2.6.3
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -2983,18 +2983,18 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-help@5.2.20(@types/node@22.1.0)(typescript@5.5.4)':
+  '@oclif/plugin-help@5.2.20(@types/node@22.2.0)(typescript@5.5.4)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@22.1.0)(typescript@5.5.4)
+      '@oclif/core': 2.16.0(@types/node@22.2.0)(typescript@5.5.4)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-plugins@3.10.1(@types/node@22.1.0)(typescript@5.5.4)':
+  '@oclif/plugin-plugins@3.10.1(@types/node@22.2.0)(typescript@5.5.4)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@22.1.0)(typescript@5.5.4)
+      '@oclif/core': 2.16.0(@types/node@22.2.0)(typescript@5.5.4)
       chalk: 4.1.2
       debug: 4.3.6(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3042,14 +3042,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@surgio/gateway@2.2.0(cache-manager@5.7.4)(surgio@3.9.2(@types/node@22.1.0)(typescript@5.5.4))':
+  '@surgio/gateway@2.2.0(cache-manager@5.7.6)(surgio@3.9.2(@types/node@22.2.0)(typescript@5.5.4))':
     dependencies:
-      '@nestjs/common': 9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/passport': 9.0.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(passport@0.6.0)
-      '@nestjs/platform-express': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
-      '@nestjs/serve-static': 3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.4)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.19.2)
+      '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/passport': 9.0.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(passport@0.6.0)
+      '@nestjs/platform-express': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
+      '@nestjs/serve-static': 3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.19.2)
       '@surgio/gateway-frontend': 2.1.0
       bluebird: 3.7.2
       cookie-parser: 1.4.6
@@ -3067,7 +3067,7 @@ snapshots:
       semver: 7.6.3
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.9.2(@types/node@22.1.0)(typescript@5.5.4)
+      surgio: 3.9.2(@types/node@22.2.0)(typescript@5.5.4)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -3084,7 +3084,7 @@ snapshots:
 
   '@surgio/logger@1.3.0':
     dependencies:
-      winston: 3.13.1
+      winston: 3.14.1
 
   '@szmarczak/http-timer@1.1.2':
     dependencies:
@@ -3106,12 +3106,12 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.1.0
+      '@types/node': 22.2.0
       '@types/responselike': 1.0.3
 
   '@types/cli-progress@3.11.6':
     dependencies:
-      '@types/node': 22.1.0
+      '@types/node': 22.2.0
 
   '@types/eslint@8.56.11':
     dependencies:
@@ -3126,15 +3126,15 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.1.0
+      '@types/node': 22.2.0
 
-  '@types/node@22.1.0':
+  '@types/node@22.2.0':
     dependencies:
       undici-types: 6.13.0
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.1.0
+      '@types/node': 22.2.0
 
   '@types/triple-beam@1.3.5': {}
 
@@ -3356,12 +3356,12 @@ snapshots:
 
   cache-manager-ioredis-yet@1.2.2:
     dependencies:
-      cache-manager: 5.7.4
+      cache-manager: 5.7.6
       ioredis: 5.4.1
     transitivePeerDependencies:
       - supports-color
 
-  cache-manager@5.7.4:
+  cache-manager@5.7.6:
     dependencies:
       eventemitter3: 5.0.1
       lodash.clonedeep: 4.5.0
@@ -5359,13 +5359,13 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  surgio@3.9.2(@types/node@22.1.0)(typescript@5.5.4):
+  surgio@3.9.2(@types/node@22.2.0)(typescript@5.5.4):
     dependencies:
       '@babel/parser': 7.25.3
       '@brillout/import': 0.2.3
-      '@oclif/core': 2.16.0(@types/node@22.1.0)(typescript@5.5.4)
-      '@oclif/plugin-help': 5.2.20(@types/node@22.1.0)(typescript@5.5.4)
-      '@oclif/plugin-plugins': 3.10.1(@types/node@22.1.0)(typescript@5.5.4)
+      '@oclif/core': 2.16.0(@types/node@22.2.0)(typescript@5.5.4)
+      '@oclif/plugin-help': 5.2.20(@types/node@22.2.0)(typescript@5.5.4)
+      '@oclif/plugin-plugins': 3.10.1(@types/node@22.2.0)(typescript@5.5.4)
       '@royli/hygen': 6.2.0
       '@surgio/eslint-config-surgio': 1.0.6
       '@surgio/logger': 1.3.0
@@ -5374,7 +5374,7 @@ snapshots:
       ali-oss: 6.20.0
       bluebird: 3.7.2
       bytes: 3.1.2
-      cache-manager: 5.7.4
+      cache-manager: 5.7.6
       cache-manager-ioredis-yet: 1.2.2
       chalk: 4.1.2
       change-case: 4.1.2
@@ -5465,14 +5465,14 @@ snapshots:
 
   ts-expect@1.3.0: {}
 
-  ts-node@10.9.2(@types/node@22.1.0)(typescript@5.5.4):
+  ts-node@10.9.2(@types/node@22.2.0)(typescript@5.5.4):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.1.0
+      '@types/node': 22.2.0
       acorn: 8.12.1
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -5643,7 +5643,7 @@ snapshots:
       readable-stream: 3.6.2
       triple-beam: 1.4.1
 
-  winston@3.13.1:
+  winston@3.14.1:
     dependencies:
       '@colors/colors': 1.6.0
       '@dabh/diagnostics': 2.0.3
