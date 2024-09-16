@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@surgio/gateway':
         specifier: 2.2.0
-        version: 2.2.0(cache-manager@5.7.6)(surgio@3.10.0(@types/node@22.5.4)(typescript@5.5.4))
+        version: 2.2.0(cache-manager@5.7.6)(surgio@3.10.0(@types/node@22.5.5)(typescript@5.6.2))
       surgio:
         specifier: 3.10.0
-        version: 3.10.0(@types/node@22.5.4)(typescript@5.5.4)
+        version: 3.10.0(@types/node@22.5.5)(typescript@5.6.2)
     devDependencies:
       eslint:
         specifier: ^9.2.0
@@ -77,8 +77,8 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
-  '@eslint-community/regexpp@4.11.0':
-    resolution: {integrity: sha512-G/M/tIiMrTAxEWRfLfQJMmGNX28IxBg4PBz8XqQhqUHLFI6TL2htpIB1iQCj144V5ee/JaKyT9/WZ0MGZWfA7A==}
+  '@eslint-community/regexpp@4.11.1':
+    resolution: {integrity: sha512-m4DVN9ZqskZoLU5GlWZadwDnYo3vAEydiUayB9widCl9ffWx2IvPnp6n3on5rJmziJSw9Bv+Z3ChDVdMwXCY8Q==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
   '@eslint/config-array@0.18.0':
@@ -308,8 +308,8 @@ packages:
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
 
-  '@types/node@22.5.4':
-    resolution: {integrity: sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==}
+  '@types/node@22.5.5':
+    resolution: {integrity: sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==}
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -332,8 +332,8 @@ packages:
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
-  acorn-walk@8.3.3:
-    resolution: {integrity: sha512-MxXdReSRhGO7VlFe1bRG/oI7/mdLV9B9JJT0N8vZOhF7gFRR5l3M8W9G8JxmKV+JC5mGqJ0QvqfSOLsCPa4nUw==}
+  acorn-walk@8.3.4:
+    resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
     engines: {node: '>=0.4.0'}
 
   acorn@8.12.1:
@@ -379,8 +379,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  ansi-regex@6.0.1:
-    resolution: {integrity: sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==}
+  ansi-regex@6.1.0:
+    resolution: {integrity: sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==}
     engines: {node: '>=12'}
 
   ansi-styles@4.3.0:
@@ -453,6 +453,10 @@ packages:
 
   body-parser@1.20.2:
     resolution: {integrity: sha512-ml9pReCu3M61kGlqoTm2umSXTlRTuGTx0bfYj+uIUKKYycG5NtSbeetV3faSU6R7ajOPw0g/J1PvK4qNy7s5bA==}
+    engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+
+  body-parser@1.20.3:
+    resolution: {integrity: sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
   bowser@1.9.4:
@@ -868,6 +872,10 @@ packages:
     resolution: {integrity: sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w==}
     engines: {node: '>= 0.8'}
 
+  encodeurl@2.0.0:
+    resolution: {integrity: sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==}
+    engines: {node: '>= 0.8'}
+
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
@@ -1020,8 +1028,8 @@ packages:
     resolution: {integrity: sha512-5/PsL6iGPdfQ/lKM1UuielYgv3BUoJfz1aUwU9vHZ+J7gyvwdQXFEBIEIaxeGf0GIcreATNyBExtalisDbuMqQ==}
     engines: {node: '>= 0.10.0'}
 
-  express@4.19.2:
-    resolution: {integrity: sha512-5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==}
+  express@4.21.0:
+    resolution: {integrity: sha512-VqcNGcj/Id5ZT1LZ/cfihi3ttTn+NJmkli2eZADigjq29qTlWi/hAQ43t/VLPq8+UX06FCEx3ByOYet6ZFblng==}
     engines: {node: '>= 0.10.0'}
 
   extend-shallow@2.0.1:
@@ -1083,6 +1091,10 @@ packages:
 
   finalhandler@1.2.0:
     resolution: {integrity: sha512-5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg==}
+    engines: {node: '>= 0.8'}
+
+  finalhandler@1.3.1:
+    resolution: {integrity: sha512-6BN9trH7bp3qvnrRyzsBz+g3lZxTNZTbVO2EV1CS0WIcDbawYVdYvGflME/9QP0h0pYlCDBCTjYa9nZzMDpyxQ==}
     engines: {node: '>= 0.8'}
 
   find-up@5.0.0:
@@ -1178,8 +1190,8 @@ packages:
     resolution: {integrity: sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==}
     engines: {node: '>=16'}
 
-  get-tsconfig@4.8.0:
-    resolution: {integrity: sha512-Pgba6TExTZ0FJAn1qkJAjIeKoDJ3CsI2ChuLohJnZl/tTU8MVrq3b+2t5UOPfRa4RMsorClBjJALkJUMjG1PAw==}
+  get-tsconfig@4.8.1:
+    resolution: {integrity: sha512-k9PN+cFBmaLWtVz29SkUoqU5O0slLuHJXt/2P+tMVFT+phsSGXGkp9t3rQIqdz0e+06EHNGs3oM6ZX1s2zHxRg==}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -2022,6 +2034,9 @@ packages:
     resolution: {integrity: sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==}
     engines: {node: '>=16 || 14 >=14.18'}
 
+  path-to-regexp@0.1.10:
+    resolution: {integrity: sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w==}
+
   path-to-regexp@0.1.7:
     resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
 
@@ -2087,8 +2102,8 @@ packages:
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
 
-  pump@3.0.0:
-    resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
+  pump@3.0.2:
+    resolution: {integrity: sha512-tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -2264,6 +2279,10 @@ packages:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
     engines: {node: '>= 0.8.0'}
 
+  send@0.19.0:
+    resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
+    engines: {node: '>= 0.8.0'}
+
   sentence-case@2.1.1:
     resolution: {integrity: sha512-ENl7cYHaK/Ktwk5OTD+aDbQ3uC8IByu/6Bkg+HDv8Mm+XnBnppVNalcfJTNsp1ibstKh030/JKQQWglDvtKwEQ==}
 
@@ -2272,6 +2291,10 @@ packages:
 
   serve-static@1.15.0:
     resolution: {integrity: sha512-XGuRDNjXUijsUL0vl6nSD7cwURuzEgglbOaFuZM9g3kwDXOWVTck0jLzjPzGD+TazWbboZYu52/9/XPdUgne9g==}
+    engines: {node: '>= 0.8.0'}
+
+  serve-static@1.16.2:
+    resolution: {integrity: sha512-VqpjJZKadQB/PEbEwvFdO43Ax5dFBZ2UECszz8bQ7pi7wt//PWe1P6MN7eCnjsatYtBT6EuiClbjSWP2WrIoTw==}
     engines: {node: '>= 0.8.0'}
 
   serverless-http@3.2.0:
@@ -2559,8 +2582,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2797,7 +2820,7 @@ snapshots:
       eslint: 9.10.0
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/regexpp@4.11.0': {}
+  '@eslint-community/regexpp@4.11.1': {}
 
   '@eslint/config-array@0.18.0':
     dependencies:
@@ -2925,13 +2948,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nestjs/serve-static@3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.19.2)':
+  '@nestjs/serve-static@3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.21.0)':
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       path-to-regexp: 0.2.5
     optionalDependencies:
-      express: 4.19.2
+      express: 4.21.0
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -2953,7 +2976,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@oclif/core@2.16.0(@types/node@22.5.4)(typescript@5.5.4)':
+  '@oclif/core@2.16.0(@types/node@22.5.5)(typescript@5.6.2)':
     dependencies:
       '@types/cli-progress': 3.11.6
       ansi-escapes: 4.3.2
@@ -2978,7 +3001,7 @@ snapshots:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@types/node@22.5.4)(typescript@5.5.4)
+      ts-node: 10.9.2(@types/node@22.5.5)(typescript@5.6.2)
       tslib: 2.7.0
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -2989,18 +3012,18 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-help@5.2.20(@types/node@22.5.4)(typescript@5.5.4)':
+  '@oclif/plugin-help@5.2.20(@types/node@22.5.5)(typescript@5.6.2)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@22.5.4)(typescript@5.5.4)
+      '@oclif/core': 2.16.0(@types/node@22.5.5)(typescript@5.6.2)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
       - typescript
 
-  '@oclif/plugin-plugins@3.10.1(@types/node@22.5.4)(typescript@5.5.4)':
+  '@oclif/plugin-plugins@3.10.1(@types/node@22.5.5)(typescript@5.6.2)':
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@22.5.4)(typescript@5.5.4)
+      '@oclif/core': 2.16.0(@types/node@22.5.5)(typescript@5.6.2)
       chalk: 4.1.2
       debug: 4.3.7(supports-color@8.1.1)
       http-call: 5.3.0
@@ -3048,19 +3071,19 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@surgio/gateway@2.2.0(cache-manager@5.7.6)(surgio@3.10.0(@types/node@22.5.4)(typescript@5.5.4))':
+  '@surgio/gateway@2.2.0(cache-manager@5.7.6)(surgio@3.10.0(@types/node@22.5.5)(typescript@5.6.2))':
     dependencies:
       '@nestjs/common': 9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/config': 2.3.4(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/core': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1)
       '@nestjs/passport': 9.0.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(passport@0.6.0)
       '@nestjs/platform-express': 9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3)
-      '@nestjs/serve-static': 3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.19.2)
+      '@nestjs/serve-static': 3.0.1(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@9.4.3(@nestjs/common@9.4.3(cache-manager@5.7.6)(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/platform-express@9.4.3)(reflect-metadata@0.1.14)(rxjs@7.8.1))(express@4.21.0)
       '@surgio/gateway-frontend': 2.1.0
       bluebird: 3.7.2
       cookie-parser: 1.4.6
       dayjs: 1.11.13
-      express: 4.19.2
+      express: 4.21.0
       fs-extra: 11.2.0
       http-errors: 2.0.0
       lodash: 4.17.21
@@ -3073,7 +3096,7 @@ snapshots:
       semver: 7.6.3
       serverless-http: 3.2.0
       source-map-support: 0.5.21
-      surgio: 3.10.0(@types/node@22.5.4)(typescript@5.5.4)
+      surgio: 3.10.0(@types/node@22.5.5)(typescript@5.6.2)
       youch: 3.3.3
     transitivePeerDependencies:
       - '@fastify/static'
@@ -3112,12 +3135,12 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.5.4
+      '@types/node': 22.5.5
       '@types/responselike': 1.0.3
 
   '@types/cli-progress@3.11.6':
     dependencies:
-      '@types/node': 22.5.4
+      '@types/node': 22.5.5
 
   '@types/eslint@8.56.12':
     dependencies:
@@ -3132,15 +3155,15 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.5.4
+      '@types/node': 22.5.5
 
-  '@types/node@22.5.4':
+  '@types/node@22.5.5':
     dependencies:
       undici-types: 6.19.8
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.5.4
+      '@types/node': 22.5.5
 
   '@types/triple-beam@1.3.5': {}
 
@@ -3157,7 +3180,7 @@ snapshots:
     dependencies:
       acorn: 8.12.1
 
-  acorn-walk@8.3.3:
+  acorn-walk@8.3.4:
     dependencies:
       acorn: 8.12.1
 
@@ -3199,7 +3222,7 @@ snapshots:
       merge-descriptors: 1.0.3
       mime: 2.6.0
       platform: 1.3.6
-      pump: 3.0.0
+      pump: 3.0.2
       qs: 6.13.0
       sdk-base: 2.0.1
       stream-http: 2.8.2
@@ -3227,7 +3250,7 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  ansi-regex@6.0.1: {}
+  ansi-regex@6.1.0: {}
 
   ansi-styles@4.3.0:
     dependencies:
@@ -3313,6 +3336,23 @@ snapshots:
       iconv-lite: 0.4.24
       on-finished: 2.4.1
       qs: 6.11.0
+      raw-body: 2.5.2
+      type-is: 1.6.18
+      unpipe: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
+
+  body-parser@1.20.3:
+    dependencies:
+      bytes: 3.1.2
+      content-type: 1.0.5
+      debug: 2.6.9
+      depd: 2.0.0
+      destroy: 1.2.0
+      http-errors: 2.0.0
+      iconv-lite: 0.4.24
+      on-finished: 2.4.1
+      qs: 6.13.0
       raw-body: 2.5.2
       type-is: 1.6.18
       unpipe: 1.0.0
@@ -3744,6 +3784,8 @@ snapshots:
 
   encodeurl@1.0.2: {}
 
+  encodeurl@2.0.0: {}
+
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
@@ -3792,7 +3834,7 @@ snapshots:
   eslint-plugin-es-x@7.8.0(eslint@9.10.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.10.0)
-      '@eslint-community/regexpp': 4.11.0
+      '@eslint-community/regexpp': 4.11.1
       eslint: 9.10.0
       eslint-compat-utils: 0.5.1(eslint@9.10.0)
 
@@ -3802,7 +3844,7 @@ snapshots:
       enhanced-resolve: 5.17.1
       eslint: 9.10.0
       eslint-plugin-es-x: 7.8.0(eslint@9.10.0)
-      get-tsconfig: 4.8.0
+      get-tsconfig: 4.8.1
       globals: 15.9.0
       ignore: 5.3.2
       minimatch: 9.0.5
@@ -3825,7 +3867,7 @@ snapshots:
   eslint@8.57.0:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
-      '@eslint-community/regexpp': 4.11.0
+      '@eslint-community/regexpp': 4.11.1
       '@eslint/eslintrc': 2.1.4
       '@eslint/js': 8.57.0
       '@humanwhocodes/config-array': 0.11.14
@@ -3868,7 +3910,7 @@ snapshots:
   eslint@9.10.0:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.10.0)
-      '@eslint-community/regexpp': 4.11.0
+      '@eslint-community/regexpp': 4.11.1
       '@eslint/config-array': 0.18.0
       '@eslint/eslintrc': 3.1.0
       '@eslint/js': 9.10.0
@@ -4006,34 +4048,34 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  express@4.19.2:
+  express@4.21.0:
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
-      body-parser: 1.20.2
+      body-parser: 1.20.3
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookie: 0.6.0
       cookie-signature: 1.0.6
       debug: 2.6.9
       depd: 2.0.0
-      encodeurl: 1.0.2
+      encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
-      finalhandler: 1.2.0
+      finalhandler: 1.3.1
       fresh: 0.5.2
       http-errors: 2.0.0
-      merge-descriptors: 1.0.1
+      merge-descriptors: 1.0.3
       methods: 1.1.2
       on-finished: 2.4.1
       parseurl: 1.3.3
-      path-to-regexp: 0.1.7
+      path-to-regexp: 0.1.10
       proxy-addr: 2.0.7
-      qs: 6.11.0
+      qs: 6.13.0
       range-parser: 1.2.1
       safe-buffer: 5.2.1
-      send: 0.18.0
-      serve-static: 1.15.0
+      send: 0.19.0
+      serve-static: 1.16.2
       setprototypeof: 1.2.0
       statuses: 2.0.1
       type-is: 1.6.18
@@ -4102,6 +4144,18 @@ snapshots:
     dependencies:
       debug: 2.6.9
       encodeurl: 1.0.2
+      escape-html: 1.0.3
+      on-finished: 2.4.1
+      parseurl: 1.3.3
+      statuses: 2.0.1
+      unpipe: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
+
+  finalhandler@1.3.1:
+    dependencies:
+      debug: 2.6.9
+      encodeurl: 2.0.0
       escape-html: 1.0.3
       on-finished: 2.4.1
       parseurl: 1.3.3
@@ -4190,17 +4244,17 @@ snapshots:
 
   get-stream@4.1.0:
     dependencies:
-      pump: 3.0.0
+      pump: 3.0.2
 
   get-stream@5.2.0:
     dependencies:
-      pump: 3.0.0
+      pump: 3.0.2
 
   get-stream@6.0.1: {}
 
   get-stream@8.0.1: {}
 
-  get-tsconfig@4.8.0:
+  get-tsconfig@4.8.1:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
@@ -4955,6 +5009,8 @@ snapshots:
       lru-cache: 10.4.3
       minipass: 7.1.2
 
+  path-to-regexp@0.1.10: {}
+
   path-to-regexp@0.1.7: {}
 
   path-to-regexp@0.2.5: {}
@@ -4996,7 +5052,7 @@ snapshots:
 
   proxy-from-env@1.1.0: {}
 
-  pump@3.0.0:
+  pump@3.0.2:
     dependencies:
       end-of-stream: 1.4.4
       once: 1.4.0
@@ -5185,6 +5241,24 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  send@0.19.0:
+    dependencies:
+      debug: 2.6.9
+      depd: 2.0.0
+      destroy: 1.2.0
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      fresh: 0.5.2
+      http-errors: 2.0.0
+      mime: 1.6.0
+      ms: 2.1.3
+      on-finished: 2.4.1
+      range-parser: 1.2.1
+      statuses: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+
   sentence-case@2.1.1:
     dependencies:
       no-case: 2.3.2
@@ -5202,6 +5276,15 @@ snapshots:
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 0.18.0
+    transitivePeerDependencies:
+      - supports-color
+
+  serve-static@1.16.2:
+    dependencies:
+      encodeurl: 2.0.0
+      escape-html: 1.0.3
+      parseurl: 1.3.3
+      send: 0.19.0
     transitivePeerDependencies:
       - supports-color
 
@@ -5338,7 +5421,7 @@ snapshots:
 
   strip-ansi@7.1.0:
     dependencies:
-      ansi-regex: 6.0.1
+      ansi-regex: 6.1.0
 
   strip-bom@3.0.0: {}
 
@@ -5365,13 +5448,13 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  surgio@3.10.0(@types/node@22.5.4)(typescript@5.5.4):
+  surgio@3.10.0(@types/node@22.5.5)(typescript@5.6.2):
     dependencies:
       '@babel/parser': 7.25.6
       '@brillout/import': 0.2.3
-      '@oclif/core': 2.16.0(@types/node@22.5.4)(typescript@5.5.4)
-      '@oclif/plugin-help': 5.2.20(@types/node@22.5.4)(typescript@5.5.4)
-      '@oclif/plugin-plugins': 3.10.1(@types/node@22.5.4)(typescript@5.5.4)
+      '@oclif/core': 2.16.0(@types/node@22.5.5)(typescript@5.6.2)
+      '@oclif/plugin-help': 5.2.20(@types/node@22.5.5)(typescript@5.6.2)
+      '@oclif/plugin-plugins': 3.10.1(@types/node@22.5.5)(typescript@5.6.2)
       '@royli/hygen': 6.2.0
       '@surgio/eslint-config-surgio': 1.0.6
       '@surgio/logger': 1.3.0
@@ -5471,21 +5554,21 @@ snapshots:
 
   ts-expect@1.3.0: {}
 
-  ts-node@10.9.2(@types/node@22.5.4)(typescript@5.5.4):
+  ts-node@10.9.2(@types/node@22.5.5)(typescript@5.6.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.5.4
+      '@types/node': 22.5.5
       acorn: 8.12.1
-      acorn-walk: 8.3.3
+      acorn-walk: 8.3.4
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.5.4
+      typescript: 5.6.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
@@ -5520,7 +5603,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@5.5.4: {}
+  typescript@5.6.2: {}
 
   uid@2.0.2:
     dependencies:
@@ -5589,7 +5672,7 @@ snapshots:
       formstream: 1.5.1
       humanize-ms: 1.2.1
       iconv-lite: 0.6.3
-      pump: 3.0.0
+      pump: 3.0.2
       qs: 6.13.0
       statuses: 1.5.0
       utility: 1.18.0
