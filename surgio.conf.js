@@ -42,7 +42,7 @@ module.exports = {
   },
   gateway: {
     auth: true,
-    accessToken: "YourTokenHere"
+    accessToken: 'YourTokenHere',
   },
   // 非常有限的报错信息收集
   analytics: true,
