@@ -1,14 +1,13 @@
-version: '3.8'
 services:
-  gateway:
-    image: ghcr.io/aozaki-kuro/surgio-gateway:latest
-    container_name: surgio
-    restart: always
-    user: '1000:1000'
-    ports:
-      - 3130:3130
-    volumes:
-      - ./provider:/app/provider
-      - ./template:/app/template
-      - ./dist:/app/dist
-      - ./surgio.conf.js:/app/surgio.conf.js
+    gateway:
+        image: ghcr.io/aozaki-kuro/surgio-gateway:latest
+        container_name: surgio
+        restart: always
+        user: '1000:1000'
+        ports:
+            - 3130:3130
+        volumes:
+            - ./provider:/app/provider
+            - ./template:/app/template
+            - ./dist:/app/dist
+            - ./surgio.conf.js:/app/surgio.conf.js
